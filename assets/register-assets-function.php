@@ -26,3 +26,13 @@ function manm_bootstrap_js_insert_enqueue(){
 }
 
 add_action('wp_enqueue_scripts','manm_bootstrap_js_insert_enqueue');
+
+
+function manm_form_controller() {
+    wp_register_script('manm-form-controller', plugins_url('/js/controller/manm-forms-controller.js', __FILE__), array(), '2', true);
+    wp_enqueue_script( 'manm-form-controller');
+
+    wp_localize_script('manm-form-controller','manm_ajax', ['ajaxurl'=>admin_url('admin-ajax.php')]);
+}
+
+add_action('wp_enqueue_scripts','manm_form_controller');

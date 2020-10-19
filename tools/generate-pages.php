@@ -1,5 +1,5 @@
 <?php
-global $wpdb;
+global $wpdb;   
 
 $pages = array(
     array('title' => 'Manm Admin',

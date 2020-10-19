@@ -17,12 +17,20 @@ if (!defined('ABSPATH')) {
 
 require_once('assets/register-assets-function.php');
 
-function manm_template() {
-    include (MANM_PATH.'/templates/manm-template.php');
-    exit;
+
+function manm_template($template) {
+    if (is_page('manm-admin')) {
+        include (MANM_PATH.'/templates/manm-template.php');
+        exit;
+    } else {
+        return $template;
+    }
 }
 
-add_action('template_redirect', 'manm_template');
+add_filter('template_include', 'manm_template');
 
 require_once('tools/generate-pages.php');
 require_once('views/manm-admin.php');
+require_once('modules/manm-save-module.php');
+require_once('modules/manm-delete-module.php');
+require_once('tools/generate-button-edit.php');
