@@ -1,18 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div id="manm-manual" class="dfree-change-admin mce-content-change" style="position: relative;" spellcheck="false">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-
-    <title>Manuales</title>
-
-</head>
-<body>
-    <header>
+    
+        <header>
         <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
             <div class="navbar-header">
                 <a href="indexmanuales.html" class="navbar-brand">Manuales - Constructora Bolívar</a>
@@ -1863,5 +1852,8 @@
 
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-</body>
-</html>
+    
+    
+    
+
+</div>
