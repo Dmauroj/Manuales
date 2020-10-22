@@ -2,6 +2,50 @@
 *
 *
 */
+var imagesInclude = {
+    "id": "",
+    "base": "",
+    "reader": "",
+    "title": ""
+}
+
+function handleImage (reader, file) {
+    imagesInclude.reader = reader;
+}
+
+function handleImageData (id,title,base) {
+    imagesInclude.title = title;
+    imagesInclude.id = id;
+    imagesInclude.base = base;
+    console.log(imagesInclude);
+} 
+
+function includeIMG () {
+    /*var img64 = imagesInclude.reader.result.toString();
+    console.log(imagesInclude.title,img64);*/
+    img64 = imagesInclude.reader;
+    jQuery('img[title='+imagesInclude.id+']').replaceWith(function () {
+        $out_html = '<img id="'+ imagesInclude.id +'" title="'+ imagesInclude.title +' src="">';
+        imagesInclude = {
+            "id": "",
+            "base": "",
+            "reader": "",
+            "title": ""
+        }
+        return $out_html;
+    });
+    jQuery("#"+imagesInclude.id).prop("src",img64)
+}
+
+jQuery(document).ready(function(){
+
+    jQuery("#manm-init").on('DOMSubtreeModified', "#manm-manual", function() {
+        if (imagesInclude.title.length > 0) {
+            setTimeout(includeIMG(),2000);
+        }
+    });
+});
+
 
 jQuery(document).ready(function(){
 
@@ -9,7 +53,10 @@ jQuery(document).ready(function(){
         event.preventDefault();
         var role = jQuery("#manm-id-role").val();
 
+        jQuery("[contenteditable=true]").prop("contenteditable","false");
+        
         if (role === "editor2") {
+            jQuery("[contenteditable=true]").prop("contenteditable","false");
             jQuery(".custom-control.custom-switch").remove();
             jQuery(".manm-switch").css('padding','0');
             jQuery(".manm-switch").css('margin-bottom','0');
@@ -81,6 +128,11 @@ jQuery(document).ready(function () {
     jQuery("#manm-duplicate").click(_ => {
         var post_id = jQuery("#manm-post-id").val();
         location.href = "/manm-admin?post-id="+post_id+"&duplicate=1";
+    });
+
+    jQuery("#manm-view").click(_ => {
+        var post_id = jQuery("#manm-post-id").val();
+        location.href = "/manm-print?post-id="+post_id;
     });
 
     jQuery("#manm-delete").click(_ => {
@@ -167,4 +219,14 @@ jQuery(document).on( 'click', '.custom-control-input', function(){
 
 jQuery(document).on( 'click', '#manm-btn-exit', function(){
     location.href = "/";
+});
+
+jQuery(document).on( 'click', '#manm-btn-print', function(){
+    jQuery("#header-print").css('display','none');
+    setTimeout(() => {
+        window.print();
+    },1000);
+    setTimeout(() => {
+        jQuery("#header-print").css('display','flex');
+    },5000);
 });

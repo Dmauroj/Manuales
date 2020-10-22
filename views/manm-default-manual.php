@@ -3,7 +3,8 @@
 <header>
         <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
             <div class="navbar-header">
-                <a href="indexmanuales.html" class="navbar-brand">Manuales - Constructora Bolívar</a>
+                <img src="<?php echo MANM_URL . "assets/"; ?>img/logo.png" style="width: 50px; height: 35px;">
+                <h2 href="indexmanuales.html" class="navbar-brand color8">Bienvenido - Manuales Constructora Bolívar</h2>
             </div>
         </nav>              
 
@@ -19,7 +20,7 @@
         </section>
     </div>
 
-    <!--INICIO MANUAL-->
+    <!--INICIO MANUAL PALABRAS PRESIDENTE-->
 
     <div class="container-fluid">
         <div class="rox">
@@ -51,47 +52,50 @@
         </div>
     </div>
 
+    <!--INDICE DE CAPITULOS-->
+
+    <hr></hr><!--SALTO DE PAG-->
     <div class="container">
         <section class="text-center">
-            <h1 class="text-center" style="padding-bottom: 30px; padding-top: 30px;">CONTENIDO</h1>
+            <h1 class="text-center" style="padding-bottom: 50px; padding-top: 30px;">CONTENIDO DEL MANUAL</h1>
 
                 <div class="row">
         
                     <!--COL1-->
                     <div class="col-6">
-                        <h4 class="color1">CAPÍTULO 1</h4>
-                        <p style="padding-bottom: 20px;">DEFINICIONES</p>
+                        <h2 class="color1">CAPÍTULO 1</h2>
+                        <p style="padding-bottom: 40px;">DEFINICIONES</p>
 
-                        <h4 class="color2">CAPÍTULO 2</h4>
-                        <p style="padding-bottom: 20px;">DESCRIPCIÓN DEL CONJUNTO</p>
+                        <h2 class="color2">CAPÍTULO 2</h2>
+                        <p style="padding-bottom: 40px;">DESCRIPCIÓN DEL CONJUNTO</p>
 
-                        <h4 class="color3">CAPÍTULO 3</h4>
-                        <p style="padding-bottom: 20px;">PARTICIPANTES DEL PROYECTO</p>
+                        <h2 class="color3">CAPÍTULO 3</h2>
+                        <p style="padding-bottom: 40px;">PARTICIPANTES DEL PROYECTO</p>
 
-                        <h4 class="color4">CAPÍTULO 4</h4>
-                        <p style="padding-bottom: 20px;">PARA QUÉ ES ESTE MANUAL</p>
+                        <h2 class="color4">CAPÍTULO 4</h2>
+                        <p style="padding-bottom: 40px;">PARA QUÉ ES ESTE MANUAL</p>
 
-                        <h4 class="color5">CAPÍTULO 5</h4>
-                        <p style="padding-bottom: 20px;">GARANTÍAS Y/O POSVENTAS</p>
+                        <h2 class="color5">CAPÍTULO 5</h2>
+                        <p style="padding-bottom: 40px;">GARANTÍAS Y/O POSVENTAS</p>
 
                     </div>
 
                     <!--COL1-->
                     <div class="col-6">
-                        <h4 class="color6">CAPÍTULO 6</h4>
-                        <p style="padding-bottom: 20px;">RECOMENDACIONES GENERALES</p>
+                        <h2 class="color6">CAPÍTULO 6</h2>
+                        <p style="padding-bottom: 40px;">RECOMENDACIONES GENERALES</p>
 
-                        <h4 class="color7">CAPÍTULO 7</h4>
-                        <p style="padding-bottom: 20px;">ACABADOS</p>
+                        <h2 class="color7">CAPÍTULO 7</h2>
+                        <p style="padding-bottom: 40px;">ACABADOS</p>
 
-                        <h4 class="color8">CAPÍTULO 8</h4>
-                        <p style="padding-bottom: 20px;">REDES</p>
+                        <h2 class="color8">CAPÍTULO 8</h2>
+                        <p style="padding-bottom: 40px;">REDES</p>
 
-                        <h4 class="color9">CAPÍTULO 9</h4>
-                        <p style="padding-bottom: 20px;">EQUIPOS</p>
+                        <h2 class="color9">CAPÍTULO 9</h2>
+                        <p style="padding-bottom: 40px;">EQUIPOS</p>
 
-                        <h4 class="color10">CAPÍTULO 10</h4>
-                        <p style="padding-bottom: 20px;">ZONAS EXTERIORES</p>
+                        <h2 class="color10">CAPÍTULO 10</h2>
+                        <p style="padding-bottom: 40px;">ZONAS EXTERIORES</p>
 
                     </div>
                 </div>
@@ -101,6 +105,7 @@
 
     <!-- CAPITULO 1  -->
 
+    <hr></hr><!--SALTO DE PAG-->
     <div class="container-fluid">
         <section>
             <img src="<?php echo MANM_URL . "assets/"; ?>img/definiciones.png" style=" padding-bottom: 20px; padding-top: 20px;" width="100%">
@@ -294,12 +299,12 @@
             </div>
         </div>    
     </div>
-
     <!-- FIN CAPITULO 1 -->
 
 
     <!-- CAPITULO 2 -->
 
+    <hr></hr><!--SALTO DE PAG-->
     <div class="container-fluid">
         <section>
 
@@ -321,22 +326,22 @@
         <div class="row">
             <div class="col-sm-12 col-md-12">
 
-                <div class=" manm-switch manm-editor">
+                <div class=" manm-switch manm-editor manm-dublicate-section">
                     <h5 class="color2">ETAPA 1</h5>
                     <p class="text-justify">Incluye la torre dos (2) con dieciséis (16) pisos  de altura y cubierta transitable, noventa y  tres (93) apartamentos de dos (2), tres (3),  y   cuatro  (4)   habitaciones   o   estudio, dos (2)  sótanos  y  doscientos  noventa  y   cuatro (294) parqueaderos privados, ochenta (80)  parqueaderos de visitantes, de este total siete. (7) son para personas con movilidad reducida  y ciento veintiocho (128) depósitos privados,  distribuidos en los dos (2) sótanos y piso uno (1),. Esta etapa también incluye: el equipamiento  comunal con tres (3) pisos de altura y las zonas  exteriores de la plataforma central, cuarto de  basura de la torre, cuarto técnico, tanques  de agua potable, de incendios y equipos de  bombeo de agua correspondientes, ubicados en los dos (2) sótanos.</p>
                 </div>
 
-                <div class=" manm-switch manm-editor">
+                <div class=" manm-switch manm-editor manm-dublicate-section">
                     <h5 class="color2">ETAPA 2</h5>
                     <p class="text-justify">Incluye la torre uno (1) con dieciséis (16) pisos  de altura y cubierta transitable con zona bbq,  cuartos  técnicos  y  baños,  ciento  veintiocho (128) apartamentos de una (1), dos (2), tres (3), y  cuatro (4) habitaciones o estudio, dos (2) sótanos  y sesenta y dos (62) parqueaderos privados,  diez (10) parqueaderos de visitantes, de este  total seis (6) son para personas con movilidad  reducida y noventa y tres (93) depósitos privados,  distribuidos en los dos (2) sótanos al igual que  la subestación eléctrica, planta de suplencia  parcial, cuarto técnico y cuarto de basuras de la torre.</p>
                 </div>
 
-                <div class=" manm-switch manm-editor">
+                <div class=" manm-switch manm-editor manm-dublicate-section">
                     <h5 class="color2">ETAPA 3</h5>
                     <p class="text-justify">Incluye la torre tres (3) con quince (15) pisos  de altura y cubierta transitable, ciento quince (115) apartamentos de una (1), dos (2), tres (3)  habitaciones, dos (2) sótanos y ochenta y siete (87) parqueaderos privados, de este total uno (1) es para personas con movilidad reducida  y ciento quince (115) depósitos privados,  distribuidos en los dos (2) sótanos al igual  que cuartos técnicos y cuarto de basuras de la torre.</p>
                 </div>
 
-                <div class=" manm-switch manm-editor">
+                <div class=" manm-switch manm-editor manm-dublicate-section">
                     <h5 class="color2">ETAPA 4</h5>
                     <p class="text-justify">Incluye la torre cuatro (4) con quince (15) pisos  de altura y cubierta en concreto no transitable, ciento un (101) apartamentos de una (1), dos  (2), tres (3), y cuatro (4) habitaciones o estudio,  dos (2) sótanos y noventa (90) parqueaderos  privados,dieciséis (16) parqueaderos de  visitantes, de este total ocho (8) son para  personas con movilidad reducida y ciento  un (101) depósitos	privados, distribuidos  en los dos (2) sótanos y piso 1 al igual que  la subestación eléctrica, planta de suplencia  parcial, cuarto técnico y cuarto de basuras.</p>
                 </div>
@@ -345,8 +350,8 @@
 
         <div class="row">
             <div class="col-sm-12 col-md-6">
-                <div class=" manm-switch manm-editor">
-                    <h5 class="color2">LOS COMUNALES</h5>
+                <div class=" manm-switch manm-editor  manm-dublicate-section">
+                    <h4 class="color2">LOS COMUNALES</h4>
                     <p class="text-justify">El proyecto cuenta con un edificio comunal con los siguientes espacios:</p>
                 </div>
             </div>
@@ -384,26 +389,31 @@
                 </div>
             </div>
         </div>
+
+        <hr></hr><!--SALTO DE PAG-->
+
+
         <!--CON FONDO VERDE-->
+        <h1 class="color2" style="text-align: center;">LAS VIVIENDAS</h1>
         <div class="container-fluid" style="background-color:#4a975d;">
-            <div class="row manm-switch manm-editor" style="padding-top: 30px; padding-bottom: 30px;">
+            <div class="row manm-switch manm-editor  manm-dublicate-section" style="padding-top: 30px; padding-bottom: 30px;">
                 <div class="col-4">
-                    <h3 class="text-center white"><strong>TORRE 1</strong> </h3>
+                    <h3 class="text-center text-white"><strong>TORRE 1</strong> </h3>
                 </div>
                 <div class="col-6">
                     <lu>
-                        <p class="text-justify white">Número de apartamentos en piso 1</p>
-                        <p class="text-justify white">Número de apartamentos por piso del piso 2 al 16</p>
-                        <p class="text-justify white">Número de pisos de vivienda</p>
-                        <p class="text-justify white">Número de apartamentos por torre</p>
+                        <p class="text-justify text-white">Número de apartamentos en piso 1</p>
+                        <p class="text-justify text-white">Número de apartamentos por piso del piso 2 al 16</p>
+                        <p class="text-justify text-white">Número de pisos de vivienda</p>
+                        <p class="text-justify text-white">Número de apartamentos por torre</p>
                     </lu>          
                 </div>
                 <div class="col-2">
                     <lu>
-                        <p class="text-left">8</p>
-                        <p class="text-justify">8</p>
-                        <p class="text-justify">16</p>
-                        <p class="text-justify">223</p>
+                        <p class="text-left text-white">8</p>
+                        <p class="text-justify text-white">8</p>
+                        <p class="text-justify text-white">16</p>
+                        <p class="text-justify text-white">223</p>
                     </lu>    
                 </div>
             </div>
@@ -411,7 +421,7 @@
         
 
         <div class="container-fluid">
-            <div class="row manm-switch manm-editor" style="padding-top: 30px; padding-bottom: 30px;">
+            <div class="row manm-switch manm-editor  manm-dublicate-section" style="padding-top: 30px; padding-bottom: 30px;">
                 <div class="col-4">
                     <h3 class="text-center"><strong>TORRE 2</strong> </h3>
                 </div>
@@ -436,11 +446,9 @@
     </div>
 
 
-    <!--  FALTA TERMINAR MODULO 2   -->
-
-
     <!--  CAPITULO 3  -->
-
+    
+    <hr></hr><!--SALTO DE PAG-->
     <div class="container-fluid">
         <section>
 
@@ -461,23 +469,23 @@
 
             <div class="row">
                 <div class="col" style="text-align: right;">
-                    <div class=" manm-switch">
+                    <div class=" manm-switch manm-editor">
                         <lu>
-                            <p class="color3">CONSTRUCCIÓN Y GERENCIA</p>
-                            <p class="color3">PROMOCIÓN Y VENTAS</p>
-                            <p class="color3">ESTUDIO DE SUELOS</p>
-                            <p class="color3">DISEÑO ESTRUCTURAL PYD</p>
-                            <p class="color3">DISEÑO ARQUITECTÓNICO</p>
-                            <p class="color3">DISEÑO REDES HIDROSANITARIAS</p>
-                            <p class="color3">DISEÑO DE REDES DE GAS</p>
-                            <p class="color3">DISEÑO REDES ELÉCTRICAS</p>
-                            <p class="color3">SUPERVISIÓN TÉCNICA</p>
+                            <p class="color3"><strong>CONSTRUCCIÓN Y GERENCIA</strong></p>
+                            <p class="color3"><strong>PROMOCIÓN Y VENTAS</strong></p>
+                            <p class="color3"><strong>ESTUDIO DE SUELOS</strong></p>
+                            <p class="color3"><strong>DISEÑO ESTRUCTURAL PYD</strong></p>
+                            <p class="color3"><strong>DISEÑO ARQUITECTÓNICO</strong></p>
+                            <p class="color3"><strong>DISEÑO REDES HIDROSANITARIAS</strong></p>
+                            <p class="color3"><strong>DISEÑO DE REDES DE GAS</strong></p>
+                            <p class="color3"><strong>DISEÑO REDES ELÉCTRICAS</strong></p>
+                            <p class="color3"><strong>SUPERVISIÓN TÉCNICA</strong></p>
                         </lu>
                     </div>
                 </div>
 
                 <div class="col">
-                    <div class=" manm-switch">
+                    <div class=" manm-switch manm-editor">
                         <lu>
                             <p>Diego Ospina - Gerente de Construcción. </p>
                             <p>Diana Andrea Gonzalez - Directora Ventas </p>
@@ -492,11 +500,10 @@
                     </div>
                 </div>
             </div>
-
     </div>          
-    
     <!--  CAPITULO 4  -->
 
+    <hr></hr><!--SALTO DE PAG-->
     <div class="container-fluid">
         <section>
 
@@ -506,7 +513,6 @@
 
         <div class="container">
             <div class="row">
-
                 <div class=" manm-switch">
                     <p class="text-center">El objetivo general de este manual es  dar los conceptos adecuados de uso,  mantenimiento y reparación de todos  los componentes del CONJUNTO  RESIDENCIAL ÉBANO.</p>
                 </div>
@@ -537,6 +543,7 @@
 
     <!--   CAPITULO 5  -->
 
+    <hr></hr><!--SALTO DE PAG-->
     <div class="container-fluid">
         <section>
 
@@ -550,7 +557,6 @@
                     <p class="text-center">Es el derecho que tiene como propietario, sobre el producto que se  entrega, cuando se presenta una falla  o defecto en cuanto al funcionamiento  durante un periodo de tiempo determinado.</p>
                 </div>
             </div>
-
             <!--Inicio de contenido-->
 
             <!--col 1-->
@@ -581,6 +587,7 @@
                         </lu></br>
                     </div>
 
+                    <div class=" manm-switch">
                         <h5 class="color5">5.5  EXONERACIÓN DE  RESPONSABILIDAD DE LA GARANTÍA</h5>
                         <p class="text-justify">Son causales de exoneración de la garantía legal:</p>
                         <lu>
@@ -589,6 +596,7 @@
                             <li class="text-justify">El uso indebido del bien</li>
                             <li class="text-justify">No atender a las instrucciones de instalación,  uso o mantenimiento incluidos en este manual.</li>
                         </lu></br>
+                    </div>
 
                     <div class=" manm-switch">
                         <h5 class="color5">5.7  SERVICIO DE GARANTÍAS Y/O POSVENTA</h5></br>
@@ -610,7 +618,7 @@
                         <p class="text-justify">Con la información suministrada en los puntos  anteriores, el funcionario de Constructora Bolívar S.A. que atiende la LÍNEA FAMILIAR generará  LA SOLICITUD DE LA GARANTÍA en el sistema.  En este momento se le informará el número de su  requerimiento y se le agendará la cita para verificar  el alcance del trabajo a realizar.</p>
                         <p class="text-justify">Los trabajos se realizarán siempre y cuando  estén vigentes las garantías de su vivienda y las  condiciones que deben aplicar de acuerdo con la  explicación anterior del capítulo de GARANTÍAS.</p>
                         <p class="text-justify">La Ejecución de los trabajos, se realizará de  acuerdo al procedimiento a que haya lugar, el  funcionario de CONSTRUCTORA BOLÍVAR S.A  le informará el cronograma de trabajo y el tiempo  que le tomará ejecutarlo.</p>
-                        <p class="color5" class="text-justify"><em><strong>“Los tiempos de reparación dependerán  del tipo de arreglo que se vaya a ejecutar,  de la disponibilidad de los proveedores y el  producto y de las condiciones climáticas.”</strong></em></p>
+                        <p class="color5 text-justify"><em><strong>“Los tiempos de reparación dependerán  del tipo de arreglo que se vaya a ejecutar,  de la disponibilidad de los proveedores y el  producto y de las condiciones climáticas.”</strong></em></p>
                         <p class="text-justify">Una vez ejecutado el trabajo a que haya lugar, los  profesionales del área de construcción supervisarán, verificarán y aprobarán los trabajos.</p>
                         <p class="text-justify>">Posteriormente, se hace entrega al propietario o  persona autorizada de los trabajos ejecutados.  En el formato de SOLICITUD DE ATENCIÓN DE  GARANTÍAS está previsto que el propietario o la  persona autorizada firme en señal de aceptación  los trabajos realizados.</p>
                         <p class="text-justify>">Por favor tenga en cuenta que en temporada de fin  de año, los tiempos de atención de las garantías  pueden modificarse, CONSTRUCTORA BOLÍVAR
@@ -707,12 +715,12 @@
             </div>
         </div>
     </div>
-
-        <!-- FIN CAPITULO 5 -->
+    <!-- FIN CAPITULO 5 -->
 
 
         <!-- CAPITULO 6  -->
 
+        <hr></hr><!--SALTO DE PAG-->
         <div class="container-fluid">
             <section>
     
@@ -727,27 +735,26 @@
             </div>
 
             <!--  INICIO DE CONTENIDO CAPITULO  -->
-
             <div class="container">
                 <div class="row">
                     <!--COL1 CAP6-->
                     <div class="col-sm-12 col-md-6">
                         <div class=" manm-switch">
-                        <h5 class="color6">6.1 RECOMENDACIONES BÁSICAS DE SEGURIDAD</h5>
-                            <p class="text-center">Recuerde que cualquier trabajo de mantenimiento y reparación, debe ser realizado teniendo en cuenta las medidas básicas de seguridad, no olvide utilizar las herramientas adecuadas y verificar su uso y  precauciones antes de utilizarlas.</p>
-                        <ul>
-                            <li class="text-justify">Evite guardar y manipular dentro  de  la vivienda o en depósitos, materiales  inflamables o  explosivos  (gasolina,  parafinas, pólvora, disolventes).</li>
-                            <li class="text-justify">No cambie el uso previsto para su vivienda  ya que ciertas máquinas o implementos no  autorizados pueden afectar la estructura.</li>
-                            <li class="text-justify">No vierta sustancias tóxicas o contaminantes,  restos alimenticios que puedan generar  riesgos de salud para usted y su comunidad.</li>
-                            <li class="text-justify">Nunca	intervenga	los	contadores y elementos como	tableros generales, transformadores, tuberías, etc., ya que solo  las empresas autorizadas pueden hacerlo.</li>
-                            <li class="text-justify">Evite hacer maniobras que pongan en  riesgo su integridad física cuando realice la  limpieza de vidrios y puertas.</li>
-                            <li class="text-justify">No introduzca alambres diferentes a los  ya instalados, puesto que ocasionaría  sobrecargas en las instalaciones eléctricas y  posibles incendios en las mismas.</li>
-                            <li class="text-justify">No permita que los niños manipulen las  instalaciones eléctricas, el hacerlo puede acarrear serios riesgos para la salud  de ellos.</li>
-                            <li class="text-justify">Nunca accione aparatos eléctricos con  las manos mojadas ya que el agua es un  excelente conductor de la electricidad.</li>
-                            <li class="text-justify">Al	instalar cuadros decorativos recomendamos la utilización de taladro y  chazo para la fijación de los mismos. No  se recomienda la utilización de puntilla  clavada con martillo, pues un mal golpe  puede producir fisuras en los muros.</li>
-                            <li class="text-justify">Los interruptores de Energía, se accionan  automáticamente cada vez que hay una  sobrecarga en el circuito correspondiente  o se presente un cortocircuito eléctrico por  cualquier causa, cortando el suministro de  la energía. Se puede reponer el servicio  accionándolo nuevamente, pero la carga  del circuito afectado debe disminuirse  antes de operarlo de nuevo.</li>
-                            <li class="text-justify">Utilice reguladores de voltaje para sus  electrodomésticos y asegúrese  de usar solamente electrodomésticos especificados  para un voltaje de 110V y frecuencia de 60  ciclos.</li>
-                        </ul><br>
+                            <h5 class="color6">6.1 RECOMENDACIONES BÁSICAS DE SEGURIDAD</h5>
+                                <p class="text-center">Recuerde que cualquier trabajo de mantenimiento y reparación, debe ser realizado teniendo en cuenta las medidas básicas de seguridad, no olvide utilizar las herramientas adecuadas y verificar su uso y  precauciones antes de utilizarlas.</p>
+                            <ul>
+                                <li class="text-justify">Evite guardar y manipular dentro  de  la vivienda o en depósitos, materiales  inflamables o  explosivos  (gasolina,  parafinas, pólvora, disolventes).</li>
+                                <li class="text-justify">No cambie el uso previsto para su vivienda  ya que ciertas máquinas o implementos no  autorizados pueden afectar la estructura.</li>
+                                <li class="text-justify">No vierta sustancias tóxicas o contaminantes,  restos alimenticios que puedan generar  riesgos de salud para usted y su comunidad.</li>
+                                <li class="text-justify">Nunca	intervenga	los	contadores y elementos como	tableros generales, transformadores, tuberías, etc., ya que solo  las empresas autorizadas pueden hacerlo.</li>
+                                <li class="text-justify">Evite hacer maniobras que pongan en  riesgo su integridad física cuando realice la  limpieza de vidrios y puertas.</li>
+                                <li class="text-justify">No introduzca alambres diferentes a los  ya instalados, puesto que ocasionaría  sobrecargas en las instalaciones eléctricas y  posibles incendios en las mismas.</li>
+                                <li class="text-justify">No permita que los niños manipulen las  instalaciones eléctricas, el hacerlo puede acarrear serios riesgos para la salud  de ellos.</li>
+                                <li class="text-justify">Nunca accione aparatos eléctricos con  las manos mojadas ya que el agua es un  excelente conductor de la electricidad.</li>
+                                <li class="text-justify">Al	instalar cuadros decorativos recomendamos la utilización de taladro y  chazo para la fijación de los mismos. No  se recomienda la utilización de puntilla  clavada con martillo, pues un mal golpe  puede producir fisuras en los muros.</li>
+                                <li class="text-justify">Los interruptores de Energía, se accionan  automáticamente cada vez que hay una  sobrecarga en el circuito correspondiente  o se presente un cortocircuito eléctrico por  cualquier causa, cortando el suministro de  la energía. Se puede reponer el servicio  accionándolo nuevamente, pero la carga  del circuito afectado debe disminuirse  antes de operarlo de nuevo.</li>
+                                <li class="text-justify">Utilice reguladores de voltaje para sus  electrodomésticos y asegúrese  de usar solamente electrodomésticos especificados  para un voltaje de 110V y frecuencia de 60  ciclos.</li>
+                            </ul><br>
                         </div>
 
                         <div class=" manm-switch">
@@ -774,7 +781,6 @@
                                 </lu></br>
                         </div>
 
-
                         <div class=" manm-switch">
                             <h6 class="color6">6.5.3 EL ADMINISTRADOR</h6>
                                 <p class="text-justify">La representación legal del conjunto y la  administración está bajo la responsabilidad del  Administrador, que es escogido por el consejo de  Administración. Entre sus funciones esta:</p>
@@ -787,7 +793,6 @@
                                     <li class="text-justify">Las demás funciones previstas en la ley y  en el reglamento del conjunto, así como  las que defina la asamblea general de  propietarios.</li>
                                 </ul>
                         </div>
-
                     </div>
 
                     <!--COL 2 CAP6-->
@@ -866,7 +871,6 @@
                             <h6 class="color6">6.6.2 AGUA, ENERGÍA Y GAS</h6>
                             <p class="text-justify">Los servicios de los que haga uso en  su vivienda se pagan de acuerdo a su  consumo dentro de unos plazos estableci-  dos por cada entidad, que en caso de no  hacerlo podrá suspenderle el servicio, evite  reconexiones.</p>
                         </div>
-                        
                     </div>
                 </div>
             </div>
@@ -877,6 +881,7 @@
 
         <!--  CAPITULO 7 -->
 
+    <hr></hr><!--SALTO DE PAG-->
     <div class="container-fluid">
             <section>
     
@@ -1112,11 +1117,11 @@
                                     <p class="text-justify">- Evite toda clase de golpes en las superficies  porcelanizadas, especialmente en bordes  y esquinas.</p>
                                     <p class="text-justify">- Evite que sobre el porcelanizado caliente se  derramen líquidos hirviendo (aceites, salsas,  almíbares o jarabes).</p>
                                     <p class="text-justify">- Los jugos cítricos, vinagres fuertes o aliños  concentrados, aún en frío, pueden atacar el  porcelanizado.</p>
-                                    <li class="color7" class="text-justify"><strong>Cuidados del acero inoxidable:</strong>Es normal  que durante el uso de su producto, se  presente amarillamiento en las zonas  cercanas a las fuentes de calor. Esta  situación se puede presentar con mayor  frecuencia se el producto está expuesto a  corrientes de aire durante el proceso de  cocción; a continuación le damos algunas  recomendaciones para limpiar su producto  si se presenta este fenómeno:</p>
+                                    <li class="color7" class="text-justify"><strong>Cuidados del acero inoxidable:</strong> Es normal  que durante el uso de su producto, se  presente amarillamiento en las zonas  cercanas a las fuentes de calor. Esta  situación se puede presentar con mayor  frecuencia se el producto está expuesto a  corrientes de aire durante el proceso de  cocción; a continuación le damos algunas  recomendaciones para limpiar su producto  si se presenta este fenómeno:</p>
                                     <p class="text-justify">- Utilice esponjas sintéticas deslizándola en  la dirección del acabado de la lámina de la  mesa para no alterar el acabado.</p>
                                     <p class="text-justify">- Mezcle sal de cocina con vinagre blanco  hasta formar una pasta, aplique y frote con  un paño suave sobre la zona decolorada,  enjuague y limpie, repita el proceso si es  necesario.</p>
                                     <p class="text-justify">- También puede utilizar desoximetal en  cual puede aplicar frotándolo con un paño  húmedo y siguiendo las recomendaciones  que tiene el envase del producto. Este  producto lo puede adquirir en nuestros  centros de servicio.</p>
-                                    <li class="color7" class="text-justify"><strong>NOTA</strong><em>Tenga en cuenta que por ser un fenómeno  normal de uso, ésta situación no ésta  cubierta por la garantía.</em></li>
+                                    <li class="color7" class="text-justify"><strong>NOTA</strong><em> Tenga en cuenta que por ser un fenómeno  normal de uso, ésta situación no ésta  cubierta por la garantía.</em></li>
                                     <li class="text-justify">Mantenga limpia la tapa de la fuente de  calor y las superficies alrededor de ésta.  La suciedad, la grasa derramada y otros  materiales inflamables son fuentes de  riesgo. Recuerde la periodicidad en la  limpieza de los orificios de las fuentes de  calor.</li>
                                     <li class="text-justify">Antes de hacer el aseo debe esperar el  tiempo necesario para su enfriamiento;  para la limpieza use solamente paños secos  y de tejido liviano.</li>
                                     <li class="text-justify">No se debe realizar la limpieza con toallas  muy húmedas.</li><br>
@@ -1452,7 +1457,8 @@
 
         <!--  CAPITULO 8 -->
 
-        <div class="container-fluid">
+    <hr></hr><!--SALTO DE PAG-->
+    <div class="container-fluid">
             <section>
     
                 <img src="<?php echo MANM_URL . "assets/"; ?>img/capitulo8.png" style=" padding-bottom: 20px; padding-top: 20px;" width="100%">
@@ -1556,7 +1562,7 @@
                             <li class="text-justify">Realizar inspección para detectar fisuras  o fallas en las cañuelas, en caso de rotura  por alguna causa externa se recomienda  realizar la reparación a la mayor brevedad  posible.</li>
                             <li class="text-justify">Limpiar mensualmente cañuelas, desagües  y rejillas de salida a pozos.</li>
                             <li class="text-justify">Probar mensualmente que los desagües  evacuen eficientemente el agua,  especialmente en periodos de lluvia; Se  recomienda lavar con el agua que provee  una manguera de ½” conectada a llave de  suministro en sótano.</li>
-                    </ul><br>
+                        </ul><br>
                     </div>
 
                 </div>
@@ -1657,6 +1663,7 @@
                 </div>
             </div>
         </div>
+    </div>
 
         <!--  Fin capitulo 8-->
 
@@ -1664,13 +1671,14 @@
 
         <!--  CAPITULO 9-->
 
-        <div class="container-fluid">
+    <hr></hr><!--SALTO DE PAG-->
+    <div class="container-fluid">
             <section>
     
                 <img src="<?php echo MANM_URL . "assets/"; ?>img/capitulo9.png"  style=" padding-bottom: 20px; padding-top: 20px;" width="100%">
     
             </section>
-        </div>
+        
 
        <div class="container"> 
             <div class="row">
@@ -1753,21 +1761,19 @@
                 </div>
             </div>
         </div>
+    </div>
+    <!-- Fin capitulo 9-->
 
-        <!-- Fin capitulo 9-->
 
+    <!--   CAPITULO 10  -->
 
+    <hr></hr><!--SALTO DE PAG-->
+    <div class="container-fluid">
+        <section>
 
-        <!--   CAPITULO 10  -->
+            <img src="<?php echo MANM_URL . "assets/"; ?>img/capitulo10.png"  class="col-sm-12 col-md-12 col-lg-12 col-xl-12" style=" padding-bottom: 20px; padding-top: 20px;" width="100%">
 
-        <div class="container-fluid">
-            <section>
-    
-                <img src="<?php echo MANM_URL . "assets/"; ?>img/capitulo10.png"  class="col-sm-12 col-md-12 col-lg-12 col-xl-12" style=" padding-bottom: 20px; padding-top: 20px;" width="100%">
-    
-            </section>
-
-        </div>
+        </section>
 
         <div class="container">
             <!--COL1 CAP10-->
@@ -1790,17 +1796,19 @@
                     </div>
 
                     <div>
-                        <h5 class="color10">10.3 JARDINERAS</h5>
-                        <h6 class="color10">Recomendaciones generales/ mantenimiento</h6>
-                        <ul>
-                            <p class="text-justify">El primer año de vida de las zonas Verdes  es crucial para el desarrollo del ecosistema  diverso y la consolidación del ser vivo que  éste representa. Es probable que durante  los 3 primeros meses después de terminada  la siembra, haya un pequeño porcentaje  de plantas que no se hayan adaptado y  que deban ser reemplazadas. Con el paso  del tiempo, el techo verde se consolida  gracias al adecuado balance de luz, agua y  nutrientes y su sostenibilidad y longevidad  dependerá del adecuado mantenimiento.</p>
-                            <p class="text-justify">Hacer seguimiento a las condiciones  meteorológicas y verificar el estado de la vegetación según su interacción con el  medio ambiente. Durante los 6 primeros  meses, las raíces jóvenes son superficiales  y requieren mayor disponibilidad  hídrica. Conforme se van estableciendo  y desarrollando raíces maduras, podrá  reducirse la frecuencia y cantidad de riego.  Al inicio, se deberán regarse una vez cada  dos días, (dependiendo de la lluvia y sol).  El riego debe ser profundo, buscando  estimular el crecimiento de las raíces hacia  el fondo del sustrato.</p>
-                            <p class="text-justify">Revisar el estado de los sifones y desagües.  Mantenerlos limpios de todo cuerpo  extraño.</p>
-                            <p class="text-justify">Las jardineras dispuestas en el conjunto se  encuentran dispuestas en todas las áreas  comunes exteriores.</p>
-                            <p class="text-justify">Estas jardineras cuentan con un fácil  mantenimiento, ya que se encuentran  elaboradas con canastillas plásticas forradas  en geotextil no tejido para su protección,  apoyadas en estructuras metálicas que  permiten su retiro y mantenimiento.</p>
-                            <p class="text-justify">Las canastillas deben ser retiradas con  mucho cuidado y precaución evitando  que el geotextil sea desgarrado, el fondo  de las jardineras debe permanecer libre  de material vegetal especialmente en los  sifones. Esta labor debe adelantarse con  inspección mensual y limpieza con escoba  y manguera cada dos meses como máximo.</p>
-                            <p class="text-justify">Indicamos que las canastillas con las  plantas suministradas por la constructora  pueden ser trasladadas de lugar para crear  otras ambientaciones de jardín a gusto de  la administración o cambiar la orientación  de asoleación entre unas y otras especies.</p>
-                        </ul><br>
+                        <div class="col manm-switch">
+                            <h5 class="color10">10.3 JARDINERAS</h5>
+                            <h6 class="color10">Recomendaciones generales/ mantenimiento</h6>
+                            <ul>
+                                <p class="text-justify">El primer año de vida de las zonas Verdes  es crucial para el desarrollo del ecosistema  diverso y la consolidación del ser vivo que  éste representa. Es probable que durante  los 3 primeros meses después de terminada  la siembra, haya un pequeño porcentaje  de plantas que no se hayan adaptado y  que deban ser reemplazadas. Con el paso  del tiempo, el techo verde se consolida  gracias al adecuado balance de luz, agua y  nutrientes y su sostenibilidad y longevidad  dependerá del adecuado mantenimiento.</p>
+                                <p class="text-justify">Hacer seguimiento a las condiciones  meteorológicas y verificar el estado de la vegetación según su interacción con el  medio ambiente. Durante los 6 primeros  meses, las raíces jóvenes son superficiales  y requieren mayor disponibilidad  hídrica. Conforme se van estableciendo  y desarrollando raíces maduras, podrá  reducirse la frecuencia y cantidad de riego.  Al inicio, se deberán regarse una vez cada  dos días, (dependiendo de la lluvia y sol).  El riego debe ser profundo, buscando  estimular el crecimiento de las raíces hacia  el fondo del sustrato.</p>
+                                <p class="text-justify">Revisar el estado de los sifones y desagües.  Mantenerlos limpios de todo cuerpo  extraño.</p>
+                                <p class="text-justify">Las jardineras dispuestas en el conjunto se  encuentran dispuestas en todas las áreas  comunes exteriores.</p>
+                                <p class="text-justify">Estas jardineras cuentan con un fácil  mantenimiento, ya que se encuentran  elaboradas con canastillas plásticas forradas  en geotextil no tejido para su protección,  apoyadas en estructuras metálicas que  permiten su retiro y mantenimiento.</p>
+                                <p class="text-justify">Las canastillas deben ser retiradas con  mucho cuidado y precaución evitando  que el geotextil sea desgarrado, el fondo  de las jardineras debe permanecer libre  de material vegetal especialmente en los  sifones. Esta labor debe adelantarse con  inspección mensual y limpieza con escoba  y manguera cada dos meses como máximo.</p>
+                                <p class="text-justify">Indicamos que las canastillas con las  plantas suministradas por la constructora  pueden ser trasladadas de lugar para crear  otras ambientaciones de jardín a gusto de  la administración o cambiar la orientación  de asoleación entre unas y otras especies.</p>
+                            </ul><br>
+                        </div>
                     </div>
                 </div>
 
@@ -1826,55 +1834,14 @@
                 </div>
             </div>
         </div>
+    </div>
 
-        <hr></hr>
-
+        <!--LOGO CB-->
         <div class="container">
-                <div class="row">
+                <div class="row" style=>
                     <div class="col-sm-12">
-                        <img src="<?php echo MANM_URL . "assets/"; ?>img/logo.png"  style="padding-bottom: 20px;padding-top: 20px;width: 300px;" alt="Constructora Bolívar">
+                        <img src="<?php echo MANM_URL . "assets/"; ?>img/logo.png"  class="mx-auto d-block" style="padding-bottom: 20px;padding-top: 20px;width: 250px;" alt="Constructora Bolívar">
                     </div>
                 </div>
         </div>
-
-    <!--<p><img src="<?php echo MANM_URL . "assets/"; ?>https://tiny.cloud/images/medium-pic.jpg" style="display: block; margin-left: auto; margin-right: auto; width: 100%;" data-mce-style="display: block; margin-left: auto; margin-right: auto;" data-mce-selected="1"></p>
-    <br/>
-    <h2>The world’s first rich text editor in the cloud</h2>
-    <div class="row">
-        <div class="col-md-6">
-            <p>
-            Have you heard about Tiny Cloud? 
-            It’s the first step in our journey to help you deliver great content creation experiences, no matter your level of expertise. 
-            50,000 developers already agree. 
-            They get free access to our global CDN, image proxy services and auto updates to the TinyMCE editor. 
-            They’re also ready for some exciting updates coming soon.
-            </p>
-        </div>
-        <div class="col-md-6">
-            <p>
-            One of these enhancements is <strong>Tiny Drive</strong>: imagine file management for TinyMCE, in the cloud, made super easy. 
-            Learn more at <a href='https://www.tiny.cloud/tinydrive/'>tiny.cloud/tinydrive</a>, where you’ll find a working demo and an opportunity to provide feedback to the product team.
-            </p>
-        </div>
-    </div>
-
-    <h3>An editor for every project</h3>
-
-    <p>
-    Here are some of our customer’s most common use cases for TinyMCE:
-    <ul>
-        <li>Content Management Systems (<em>e.g. WordPress, Umbraco</em>)</li>
-        <li>Learning Management Systems (<em>e.g. Blackboard</em>)</li>
-        <li>Customer Relationship Management and marketing automation (<em>e.g. Marketo</em>)</li>
-        <li>Email marketing (<em>e.g. Constant Contact</em>)</li>
-        <li>Content creation in SaaS systems (<em>e.g. Eventbrite, Evernote, GoFundMe, Zendesk</em>)</li>
-    </ul>
-    </p>
-
-    <p>
-    And those use cases are just the start. 
-    TinyMCE is incredibly flexible, and with hundreds of APIs there’s likely a solution for your editor project. 
-    If you haven’t experienced Tiny Cloud, get started today. 
-    You’ll even get a free trial of our premium plugins – no credit card required!
-    </p>-->
 </div>

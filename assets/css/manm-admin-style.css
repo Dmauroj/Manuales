@@ -21,25 +21,7 @@ form#manm-update {
   #manm-admin *[contentEditable="true"]:hover {
     outline: 1px solid #2276d2;
   }
-  #manm-admin h1 {
-    color: #1976d2;
-    font-size: 2em;
-  }
-  #manm-admin h2 {
-    color: #1976d2;
-    font-size: 2em;
-  }
-  #manm-admin h3 {
-    font-size: 1.5em;
-    color: #403f42;
-    color: inherit;
-  }
-  #manm-admin h2,
-  #manm-admin h3 {
-    margin-bottom: 0px;
-    margin-top: 0px;
-    line-height: 40px;
-  }
+  
   #manm-admin ul,
   #manm-admin ol {
     padding-left: 20px;

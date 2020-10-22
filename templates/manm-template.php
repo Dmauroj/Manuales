@@ -71,11 +71,40 @@ if ( ! defined( 'ABSPATH' ) ) {
 						'codesample',
 						'help'
 					],
+					image_title: true,
+					automatic_uploads: true,
+					file_picker_types: 'image',
+					file_picker_callback: function (cb, value, meta) {
+						var input = document.createElement('input');
+						input.setAttribute('type', 'file');
+						input.setAttribute('accept', 'image/*');
+
+						input.onchange = function () {
+							var file = this.files[0];
+
+							var reader = new FileReader();
+							reader.onload = function () {
+								var id = 'blobid' + (new Date()).getTime();
+								var blobCache =  tinymce.activeEditor.editorUpload.blobCache;
+								var base64 = reader.result.split(',')[1];
+								var blobInfo = blobCache.create(id, file, base64);
+								blobCache.add(blobInfo);
+								/* call the callback and populate the Title field with the file name */
+								cb(blobInfo.blobUri(), { title: id});
+								handleImage(reader.result,file);
+								handleImageData(id,file.name,base64);
+							};
+							
+							reader.readAsDataURL(file);
+						};
+
+						input.click();
+					},
 					toolbar: false,
 					quickbars_image_toolbar: 'alignleft aligncenter alignright | rotateleft rotateright | imageoptions',
-					quickbars_insert_toolbar: 'quicktable image media codesample',
+					quickbars_insert_toolbar: 'quicktable image codesample',
 					quickbars_selection_toolbar: 'bold italic underline | formatselect | blockquote quicklink | fontsizeselect | forecolor backcolor | alignleft aligncenter alignright alignfull | numlist bullist outdent indent',
-					contextmenu: 'undo redo | fontsizeselect | forecolor backcolor | inserttable | cell row column deletetable | help',
+					contextmenu: 'undo redo | fontsizeselect | forecolor backcolor | image inserttable | cell row column deletetable | help',
 					powerpaste_word_import: 'clean',
 					powerpaste_html_import: 'clean',
 				};

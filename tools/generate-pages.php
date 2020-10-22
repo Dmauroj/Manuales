@@ -3,8 +3,11 @@ global $wpdb;
 
 $pages = array(
     array('title' => 'Manm Admin',
-    'content' => '[manm-admin]')
+    'content' => '[manm-admin]'),
+    array('title' => 'Manm Print',
+    'content' => '[manm-print]')
 );
+
 
 foreach ($pages as $page) {
     $query = $wpdb->prepare(
@@ -14,7 +17,7 @@ foreach ($pages as $page) {
         $page['title']
     );
     $wpdb->query( $query );
-
+    
     if ( $wpdb->num_rows ) {
         // Title already exists
     } else {
@@ -24,9 +27,10 @@ foreach ($pages as $page) {
             'post_type' => 'page',
             'post_content' => $page['content']
         );
-
+        
         // Add page
         $insert_id = wp_insert_post( $new_page_data );
+        //wp_create_category("Manual"); //Create category for plugin
     }
 }
 

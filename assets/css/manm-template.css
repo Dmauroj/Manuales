@@ -11,13 +11,13 @@
 */
 
 
-.dfree-header {
+.dfree-header, #header-print {
     position: fixed;
     background-color: white;
     z-index: 99;
     width: 100%;
   }
   
-  #manm-admin {
+  #manm-admin{
     margin-top: 2rem;
   }

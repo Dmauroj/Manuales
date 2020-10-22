@@ -22,6 +22,9 @@ function manm_template($template) {
     if (is_page('manm-admin')) {
         include (MANM_PATH.'/templates/manm-template.php');
         exit;
+    } else if (is_page('manm-print')) {
+        include (MANM_PATH.'/templates/manm-print.php');
+        exit;
     } else {
         return $template;
     }
@@ -31,6 +34,8 @@ add_filter('template_include', 'manm_template');
 
 require_once('tools/generate-pages.php');
 require_once('views/manm-admin.php');
+require_once('views/manm-print.php');
 require_once('modules/manm-save-module.php');
 require_once('modules/manm-delete-module.php');
 require_once('tools/generate-button-edit.php');
+require_once('views/manm-manual-list.php');

@@ -15,7 +15,7 @@ function manm_styles_enqueue_styles() {
     wp_register_style('manm-default-styles', plugins_url('/css/manm-default-styles.css', __FILE__), '1', true);
     wp_enqueue_style( 'manm-default-styles');
 }
-add_action( 'wp_enqueue_scripts', 'manm_styles_enqueue_styles');
+add_action( 'wp_enqueue_scripts', 'manm_styles_enqueue_styles',10);
 
 
 //--Import JS

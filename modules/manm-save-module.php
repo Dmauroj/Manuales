@@ -6,8 +6,9 @@ function manm_save_module () {
     $idPost = isset($_POST['id_post']) ? strval($_POST['id_post']) : null;
     $authorID = isset($_POST['id_user']) ? strval($_POST['id_user']) : null;
     $duplicate = isset($_POST['duplicate']) ? strval($_POST['duplicate']) : null;
-
+    $categories = get_categories(array("slug"=>"manual"));
     $success = '';
+
     if ($manual) {
         if (!$duplicate && $idPost) {
             $args = array(
@@ -28,6 +29,8 @@ function manm_save_module () {
             );
             $success = wp_insert_post($args);
         }
+        
+        wp_set_post_categories($success,$categories[0]->term_id);
 
         if ($success) {
             echo 200;
