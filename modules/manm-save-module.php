@@ -5,10 +5,11 @@ function manm_save_module () {
     $post_title = isset($_POST['title']) ? strval($_POST['title']) : null;
     $idPost = isset($_POST['id_post']) ? strval($_POST['id_post']) : null;
     $authorID = isset($_POST['id_user']) ? strval($_POST['id_user']) : null;
+    $duplicate = isset($_POST['duplicate']) ? strval($_POST['duplicate']) : null;
 
     $success = '';
     if ($manual) {
-        if ($idPost) {
+        if (!$duplicate && $idPost) {
             $args = array(
                 'ID' => $idPost,
                 'post_content'   => $manual,

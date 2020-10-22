@@ -4,17 +4,31 @@
 */
 
 jQuery(document).ready(function(){
-    
 
     jQuery('#manm-update').submit(function(event){
         event.preventDefault();
+        var role = jQuery("#manm-id-role").val();
 
+        if (role === "editor2") {
+            jQuery(".custom-control.custom-switch").remove();
+            jQuery(".manm-switch").css('padding','0');
+            jQuery(".manm-switch").css('margin-bottom','0');
+            jQuery(".manm-switch").css('background-color','transparent');
+            jQuery(".manm-switch").css('border','none');
+            jQuery(".manm-d-none").html("");
+            jQuery(".manm-d-none").removeClass("manm-d-none");
+        }
+        
         var data = {
             'action': 'manm_save_manual',
             'manual': jQuery("#manm-init").html(),
             'id_post': jQuery("#manm-id-post").val(),
             'title': jQuery("#manm-title").text(),
             'id_user': jQuery('#manm-id-autor').val()
+        }
+
+        if(jQuery('#manm-duplicate-post').val() === '1') {
+            data.duplicate = true;
         }
 
         //console.log(data)
@@ -66,7 +80,7 @@ jQuery(document).ready(function () {
 
     jQuery("#manm-duplicate").click(_ => {
         var post_id = jQuery("#manm-post-id").val();
-        location.href = "/manm-admin?post-id="+post_id;
+        location.href = "/manm-admin?post-id="+post_id+"&duplicate=1";
     });
 
     jQuery("#manm-delete").click(_ => {
@@ -98,7 +112,7 @@ jQuery(document).ready(function () {
                     jQuery("#manm-alert").removeClass().addClass("d-none");
                     jQuery("#manm-alert").html("");
                     location.href = "/";
-                }, 5000);
+                }, 3000);
 			},
 			error: function(err){
                 jQuery('#manm-delete').html("Eliminar manual");
@@ -107,10 +121,50 @@ jQuery(document).ready(function () {
                 setTimeout(() => {
                     jQuery("#manm-alert").removeClass().addClass("d-none");
                     jQuery("#manm-alert").html("");
-                }, 5000);
+                }, 3000);
 
                 console.log(err);
 			}
         });
     });
+});
+
+
+
+jQuery("#manm-id-role").ready(function () {
+    var UUID = 0;
+    var role = jQuery("#manm-id-role").val();
+
+    jQuery(".manm-switch").each(function( index ) {
+        if (role === "editor2") {
+            var idUnic = 'switch-' + ( ( ++UUID ).toString( ) );
+            var switchHtml = '<div id="manm-'+idUnic+'" class="custom-control custom-switch">';
+            switchHtml += '<input type="checkbox" class="custom-control-input" id="'+idUnic+'" value="true" checked>';
+            switchHtml += '<label class="custom-control-label" for="'+idUnic+'">Habilitar/Deshabilitar</label>';
+            switchHtml += '</div>';
+            jQuery(this).css('border','solid 1px blue');
+            jQuery(this).css('padding','0.5rem');
+            jQuery(this).css('margin-bottom','0.5rem');
+            jQuery(this).prepend(switchHtml);
+        }
+    });
+});
+
+jQuery(document).on( 'click', '.custom-control-input', function(){
+    var switchVal = jQuery(this).val();
+
+    if(switchVal === "true") {
+        jQuery(this).parent().parent().css('background-color','gray');
+        jQuery(this).parent().parent().addClass("manm-d-none");
+        jQuery(this).val("false");
+    } else {
+        jQuery(this).parent().parent().css('background-color','transparent');
+        jQuery(this).parent().parent().removeClass("manm-d-none");
+        jQuery(this).val("true");
+    }
+    
+});
+
+jQuery(document).on( 'click', '#manm-btn-exit', function(){
+    location.href = "/";
 });

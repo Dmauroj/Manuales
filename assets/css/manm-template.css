@@ -9,3 +9,15 @@
 *  Include all css for template
 *
 */
+
+
+.dfree-header {
+    position: fixed;
+    background-color: white;
+    z-index: 99;
+    width: 100%;
+  }
+  
+  #manm-admin {
+    margin-top: 2rem;
+  }

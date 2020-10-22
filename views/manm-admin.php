@@ -2,6 +2,7 @@
 
 function manm_admin_function () {
     $postID = isset($_GET['post-id']) ? strval($_GET['post-id']) : null;
+    $duplicate = isset($_GET['duplicate']) ? strval($_GET['duplicate']) : "0";
     $post_id = $postID;
     $post = get_post($postID);
     $user = wp_get_current_user();
@@ -27,13 +28,15 @@ function manm_admin_function () {
                     ?>
                 </h2>
                 <div class="col-2">
-                    <button id="manm-btn-exit" class="btn btn-primary">Salir</button>
+                    <a href="/" id="manm-btn-exit" class="btn btn-danger text-white pt-2 pb-2">Cancelar</a>
                     <button id="manm-btn-submit" class="btn btn-primary" type="submit">Guardar</button>
                 </div>
             </div>
             <div id="manm-admin">
+                <input type="hidden" id="manm-duplicate-post" name="manm-duplicate-post" value="<?php echo $duplicate; ?>">
                 <input type="hidden" id="manm-id-post" name="manm-id-post" value="<?php echo $postID; ?>">
                 <input type="hidden" id="manm-id-autor" name="manm-id-autor" value="<?php echo $userID; ?>">
+                <input type="hidden" id="manm-id-role" name="manm-id-role" value="<?php echo $user->roles[0]; ?>">
                 <div id="manm-init">
                     <?php 
                         if ($post_id) {

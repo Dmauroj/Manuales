@@ -3,6 +3,7 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly.
 }
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -19,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				$selector = '.dfree-change-admin';
 				break;
 			case 'editor2':
-				$selector = '.dfree-change-edit';
+				$selector = '.manm-editor';
 				break;
 			case 'administrator':
 				$selector = '.dfree-change-admin';
