@@ -234,7 +234,7 @@ jQuery(document).on( 'click', '#manm-btn-print', function(){
 
 
 jQuery(document).ready(function () {
-    jQuery(".manm-dublicate-section").each(function () {
+    jQuery("form#manm-update .manm-dublicate-section").each(function () {
         var more = '<div class="row p-1"><a class="btn btn-primary manm-btn-more text-white ml-1" style="text-decoration:none;">+<a><a class="btn btn-danger manm-btn-menos text-white ml-1" style="text-decoration:none;">-<a></div>';
         jQuery(this).parent().prepend(more);
     })
