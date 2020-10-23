@@ -44,7 +44,7 @@
         <div class="row">
             <div class="col-sm-12 col-md-12">
                 <h5><strong>MANUAL DE BIENES COMUNES</strong></h5>
-                <p class="text-justify">El  objetivo  general  de  este  manual  es  dar  los conceptos adecuados de uso, mantenimiento y reparación de todos los componentes del CONJUNTO RESIDENCIAL ÉBANO VERAMONTE. </p>
+                <p class="text-justify">El  objetivo  general  de  este  manual  es  dar  los conceptos adecuados de uso, mantenimiento y reparación de todos los componentes del <span clas="manm-editor">CONJUNTO RESIDENCIAL ÉBANO VERAMONTE.</span> </p>
                 <p class="text-justify">Como objeto material, los espacios adecuados sufren deterioros por acción del uso, del medio ambiente y el tiempo, por lo tanto, deben ser cuidados en forma constante para mantenerlos en condiciones óptimas de presentación y funcionamiento.</p>
                 <p class="text-justify">En este manual contiene la descripción de espacios, equipos, con la información técnica y recomendaciones para el buen uso de las zonas comunes, que indica cómo conservarlo adecuadamente, explicar globalmente como está construida, las recomendaciones de seguridad y los procedimientos a seguir para el manejo de las distintas zonas comunes, así como también se le proporcionarán instructivos de mantenimiento (programador de mantenimientos) y una descripción de cómo aplican las garantías a bienes comunes y equipos. Cumpla estrictamente el procedimiento indicado para solicitar cualquier reparación a las zonas comunes; nunca lo solicite directamente a los trabajadores de la obra, que no estén facultados para atender la reclamación. Para la entrega de los bienes comunes se ha adelantado una revisión minuciosa del cumplimiento de norma, calidad de la obra y su adecuado funcionamiento.</p>
                 <p class="text-justify">Sin embargo, para garantizar la calidad de las zonas comunes, la empresa cuenta con un servicio de postventa que atenderá sus requerimientos siguiendo el procedimiento. </p>
@@ -326,22 +326,22 @@
         <div class="row">
             <div class="col-sm-12 col-md-12">
 
-                <div class=" manm-switch manm-editor manm-dublicate-section">
+                <div class=" manm-switch manm-editor ">
                     <h5 class="color2">ETAPA 1</h5>
                     <p class="text-justify">Incluye la torre dos (2) con dieciséis (16) pisos  de altura y cubierta transitable, noventa y  tres (93) apartamentos de dos (2), tres (3),  y   cuatro  (4)   habitaciones   o   estudio, dos (2)  sótanos  y  doscientos  noventa  y   cuatro (294) parqueaderos privados, ochenta (80)  parqueaderos de visitantes, de este total siete. (7) son para personas con movilidad reducida  y ciento veintiocho (128) depósitos privados,  distribuidos en los dos (2) sótanos y piso uno (1),. Esta etapa también incluye: el equipamiento  comunal con tres (3) pisos de altura y las zonas  exteriores de la plataforma central, cuarto de  basura de la torre, cuarto técnico, tanques  de agua potable, de incendios y equipos de  bombeo de agua correspondientes, ubicados en los dos (2) sótanos.</p>
                 </div>
 
-                <div class=" manm-switch manm-editor manm-dublicate-section">
+                <div class=" manm-switch manm-editor ">
                     <h5 class="color2">ETAPA 2</h5>
                     <p class="text-justify">Incluye la torre uno (1) con dieciséis (16) pisos  de altura y cubierta transitable con zona bbq,  cuartos  técnicos  y  baños,  ciento  veintiocho (128) apartamentos de una (1), dos (2), tres (3), y  cuatro (4) habitaciones o estudio, dos (2) sótanos  y sesenta y dos (62) parqueaderos privados,  diez (10) parqueaderos de visitantes, de este  total seis (6) son para personas con movilidad  reducida y noventa y tres (93) depósitos privados,  distribuidos en los dos (2) sótanos al igual que  la subestación eléctrica, planta de suplencia  parcial, cuarto técnico y cuarto de basuras de la torre.</p>
                 </div>
 
-                <div class=" manm-switch manm-editor manm-dublicate-section">
+                <div class=" manm-switch manm-editor ">
                     <h5 class="color2">ETAPA 3</h5>
                     <p class="text-justify">Incluye la torre tres (3) con quince (15) pisos  de altura y cubierta transitable, ciento quince (115) apartamentos de una (1), dos (2), tres (3)  habitaciones, dos (2) sótanos y ochenta y siete (87) parqueaderos privados, de este total uno (1) es para personas con movilidad reducida  y ciento quince (115) depósitos privados,  distribuidos en los dos (2) sótanos al igual  que cuartos técnicos y cuarto de basuras de la torre.</p>
                 </div>
 
-                <div class=" manm-switch manm-editor manm-dublicate-section">
+                <div class=" manm-switch manm-editor ">
                     <h5 class="color2">ETAPA 4</h5>
                     <p class="text-justify">Incluye la torre cuatro (4) con quince (15) pisos  de altura y cubierta en concreto no transitable, ciento un (101) apartamentos de una (1), dos  (2), tres (3), y cuatro (4) habitaciones o estudio,  dos (2) sótanos y noventa (90) parqueaderos  privados,dieciséis (16) parqueaderos de  visitantes, de este total ocho (8) son para  personas con movilidad reducida y ciento  un (101) depósitos	privados, distribuidos  en los dos (2) sótanos y piso 1 al igual que  la subestación eléctrica, planta de suplencia  parcial, cuarto técnico y cuarto de basuras.</p>
                 </div>
@@ -350,7 +350,7 @@
 
         <div class="row">
             <div class="col-sm-12 col-md-6">
-                <div class=" manm-switch manm-editor  manm-dublicate-section">
+                <div class=" manm-switch manm-editor  ">
                     <h4 class="color2">LOS COMUNALES</h4>
                     <p class="text-justify">El proyecto cuenta con un edificio comunal con los siguientes espacios:</p>
                 </div>
@@ -395,8 +395,8 @@
 
         <!--CON FONDO VERDE-->
         <h1 class="color2" style="text-align: center;">LAS VIVIENDAS</h1>
-        <div class="container-fluid" style="background-color:#4a975d;">
-            <div class="row manm-switch manm-editor  manm-dublicate-section" style="padding-top: 30px; padding-bottom: 30px;">
+        <div class="container-fluid manm-green" style="background-color:#4a975d;">
+            <div class="row manm-switch manm-editor manm-dublicate-section" style="padding-top: 30px; padding-bottom: 30px;">
                 <div class="col-4">
                     <h3 class="text-center text-white"><strong>TORRE 1</strong> </h3>
                 </div>
@@ -421,9 +421,58 @@
         
 
         <div class="container-fluid">
-            <div class="row manm-switch manm-editor  manm-dublicate-section" style="padding-top: 30px; padding-bottom: 30px;">
+            <div class="row manm-switch manm-editor manm-dublicate-section" style="padding-top: 30px; padding-bottom: 30px;">
                 <div class="col-4">
                     <h3 class="text-center"><strong>TORRE 2</strong> </h3>
+                </div>
+                <div class="col-6">
+                    <lu>
+                        <p class="text-justify">Número de apartamentos en piso 1</p>
+                        <p class="text-justify">Número de apartamentos por piso del piso 2 al 16</p>
+                        <p class="text-justify">Número de pisos de vivienda</p>
+                        <p class="text-justify">Número de apartamentos por torre</p>
+                    </lu>          
+                </div>
+                <div class="col-2">
+                    <lu>
+                        <p class="text-left">8</p>
+                        <p class="text-justify">8</p>
+                        <p class="text-justify">16</p>
+                        <p class="text-justify">223</p>
+                    </lu>    
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid manm-green" style="background-color:#4a975d;">
+            <div class="row manm-switch manm-editor manm-dublicate-section" style="padding-top: 30px; padding-bottom: 30px;">
+                <div class="col-4">
+                    <h3 class="text-center text-white"><strong>TORRE 3</strong> </h3>
+                </div>
+                <div class="col-6">
+                    <lu>
+                        <p class="text-justify text-white">Número de apartamentos en piso 1</p>
+                        <p class="text-justify text-white">Número de apartamentos por piso del piso 2 al 16</p>
+                        <p class="text-justify text-white">Número de pisos de vivienda</p>
+                        <p class="text-justify text-white">Número de apartamentos por torre</p>
+                    </lu>          
+                </div>
+                <div class="col-2">
+                    <lu>
+                        <p class="text-left text-white">8</p>
+                        <p class="text-justify text-white">8</p>
+                        <p class="text-justify text-white">16</p>
+                        <p class="text-justify text-white">223</p>
+                    </lu>    
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="container-fluid">
+            <div class="row manm-switch manm-editor manm-dublicate-section" style="padding-top: 30px; padding-bottom: 30px;">
+                <div class="col-4">
+                    <h3 class="text-center"><strong>TORRE 4</strong> </h3>
                 </div>
                 <div class="col-6">
                     <lu>

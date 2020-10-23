@@ -17,7 +17,7 @@ function manm_print_function () {
                     ?>
                 </h2>
                 <div class="col-2">
-                    <a href="/" id="manm-btn-exit" class="btn btn-danger text-white pt-2 pb-2">Cancelar</a>
+                    <a href="/" id="manm-btn-exit" class="btn btn-danger text-white pt-2 pb-2">Regresar</a>
                     <button id="manm-btn-print" class="btn btn-primary">Imprimir</button>
                 </div>
             </div>

@@ -37,14 +37,14 @@ function includeIMG () {
     jQuery("#"+imagesInclude.id).prop("src",img64)
 }
 
-jQuery(document).ready(function(){
+/*jQuery(document).ready(function(){
 
     jQuery("#manm-init").on('DOMSubtreeModified', "#manm-manual", function() {
         if (imagesInclude.title.length > 0) {
             setTimeout(includeIMG(),2000);
         }
     });
-});
+});*/
 
 
 jQuery(document).ready(function(){
@@ -54,6 +54,7 @@ jQuery(document).ready(function(){
         var role = jQuery("#manm-id-role").val();
 
         jQuery("[contenteditable=true]").prop("contenteditable","false");
+        jQuery(".manm-btn-more").parent().remove();
         
         if (role === "editor2") {
             jQuery("[contenteditable=true]").prop("contenteditable","false");
@@ -229,4 +230,26 @@ jQuery(document).on( 'click', '#manm-btn-print', function(){
     setTimeout(() => {
         jQuery("#header-print").css('display','flex');
     },5000);
+});
+
+
+jQuery(document).ready(function () {
+    jQuery(".manm-dublicate-section").each(function () {
+        var more = '<div class="row p-1"><a class="btn btn-primary manm-btn-more text-white ml-1" style="text-decoration:none;">+<a><a class="btn btn-danger manm-btn-menos text-white ml-1" style="text-decoration:none;">-<a></div>';
+        jQuery(this).parent().prepend(more);
+    })
+});
+
+jQuery(document).on( 'click', '.manm-btn-more', function(){
+    var copy = jQuery(this).parent().parent().html();
+
+    if (jQuery(this).parent().parent().hasClass("manm-green")) {
+        jQuery(this).parent().parent().parent().append('<div class="container-fluid manm-green" style="background-color:#4a975d;">'+ copy +'</div>');
+    } else {
+        jQuery(this).parent().parent().parent().append('<div class="container-fluid">'+ copy +'</div>');
+    }
+});
+   
+jQuery(document).on( 'click', '.manm-btn-menos', function(){
+    jQuery(this).parent().parent().remove();
 });
