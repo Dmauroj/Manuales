@@ -35,7 +35,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 			<script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
 			<script src="https://cdn.tiny.cloud/1/w6p0n3pzj99uswp6x8i1ltjc3mthhshtctizxm95i1fd6um3/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>	<?php wp_head(); ?>
 			<script>
-
 				var dfreeHeaderConfig = {
 					selector: '.dfree-header',
 					menubar: false,
@@ -53,8 +52,40 @@ if ( ! defined( 'ABSPATH' ) ) {
 					powerpaste_html_import: 'clean',
 				};
 
+				function example_image_upload_handler (blobInfo, success, failure, progress) {
+					var xhr, formData;
+					formData = new FormData();
+					formData.append('file', blobInfo.blob(), blobInfo.filename());
+					console.log(JSON.stringify(formData));
+
+					var data = {
+						'action': 'manm_upload_image',
+						'file': blobInfo
+					}
+
+					jQuery.ajax({
+						type: 'POST',
+						url: manm_ajax.ajaxurl,
+						data,
+						success: function(data){
+							console.log(data);
+							if (data == 402) {
+								failure('HTTP Error: ' + data);
+								return;
+							} else {
+								success(data);
+							}
+						},
+						error: function(err){
+							failure('HTTP Error: ' + err.status);
+							return;
+						}
+					});
+				};
+
 				var dfreeBodyConfig = {
 					selector: '<?php echo $selector; ?>',
+					images_upload_handler: example_image_upload_handler,
 					menubar: false,
 					inline: true,
 					plugins: [
@@ -72,34 +103,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 						'help'
 					],
 					image_title: true,
-					automatic_uploads: true,
-					file_picker_types: 'image',
-					file_picker_callback: function (cb, value, meta) {
-						var input = document.createElement('input');
-						input.setAttribute('type', 'file');
-						input.setAttribute('accept', 'image/*');
-
-						input.onchange = function () {
-							var file = this.files[0];
-
-							var reader = new FileReader();
-							reader.onload = function () {
-								var id = 'blobid' + (new Date()).getTime();
-								var blobCache =  tinymce.activeEditor.editorUpload.blobCache;
-								var base64 = reader.result.split(',')[1];
-								var blobInfo = blobCache.create(id, file, base64);
-								blobCache.add(blobInfo);
-								/* call the callback and populate the Title field with the file name */
-								cb(blobInfo.blobUri(), { title: id});
-								handleImage(reader.result,file);
-								handleImageData(id,file.name,base64);
-							};
-							
-							reader.readAsDataURL(file);
-						};
-
-						input.click();
-					},
 					toolbar: false,
 					quickbars_image_toolbar: 'alignleft aligncenter alignright | rotateleft rotateright | imageoptions',
 					quickbars_insert_toolbar: 'quicktable image codesample',

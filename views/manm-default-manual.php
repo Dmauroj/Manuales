@@ -28,7 +28,7 @@
                 <h4 style="text-align: center;">APRECIADO PROPIETARIO</h4>
                 <p style="text-align: center;">Es para CONSTRUCTORA BOLÍVAR S.A. un orgullo contar con usted.</p>
 
-                <div class="manm-editor">
+                <div>
                     <p class="text-justify">
                         Pensando en su comodidad, hemos diseñado el presente “Manual de  uso  y  mantenimiento”  como  documento  de  consulta  sobre  las especificaciones  técnicas  de  su  proyecto,  las  cuales  deben  ser  de su conocimiento, así como algunas recomendaciones indispensables para el buen uso. Lo    anterior le    ayudará  a  solucionar  las  dudas  y  eventuales inconvenientes    que comúnmente    se    presentan    en    toda   construcción nueva. Al consultarlo y poner en práctica los consejos y  recomendaciones  que  le  ofrecemos,  su  proyecto  estará  siempre en  las  mejores  condiciones  de  funcionamiento.  De  este  modo, asegura su inversión y la de los demás propietarios, que como usted, contribuyen al mantenimiento y cuidado de la unidad. Es  importante  que  lea  cuidadosamente  este  manual  y  ponga  en práctica las recomendaciones. Nuevamente     agradecemos     la  confianza  depositada     en    CONSTRUCTORA BOLÍVAR S.A. y esperamos seguir contando con usted y su familia entre nuestros clientes y amigos.
                     </p>
@@ -44,7 +44,7 @@
         <div class="row">
             <div class="col-sm-12 col-md-12">
                 <h5><strong>MANUAL DE BIENES COMUNES</strong></h5>
-                <p class="text-justify">El  objetivo  general  de  este  manual  es  dar  los conceptos adecuados de uso, mantenimiento y reparación de todos los componentes del <span clas="manm-editor">CONJUNTO RESIDENCIAL ÉBANO VERAMONTE.</span> </p>
+                <p class="text-justify">El  objetivo  general  de  este  manual  es  dar  los conceptos adecuados de uso, mantenimiento y reparación de todos los componentes del <span class="manm-editor"> RESIDENCIAL ÉBANO VERAMONTE.</span> </p>
                 <p class="text-justify">Como objeto material, los espacios adecuados sufren deterioros por acción del uso, del medio ambiente y el tiempo, por lo tanto, deben ser cuidados en forma constante para mantenerlos en condiciones óptimas de presentación y funcionamiento.</p>
                 <p class="text-justify">En este manual contiene la descripción de espacios, equipos, con la información técnica y recomendaciones para el buen uso de las zonas comunes, que indica cómo conservarlo adecuadamente, explicar globalmente como está construida, las recomendaciones de seguridad y los procedimientos a seguir para el manejo de las distintas zonas comunes, así como también se le proporcionarán instructivos de mantenimiento (programador de mantenimientos) y una descripción de cómo aplican las garantías a bienes comunes y equipos. Cumpla estrictamente el procedimiento indicado para solicitar cualquier reparación a las zonas comunes; nunca lo solicite directamente a los trabajadores de la obra, que no estén facultados para atender la reclamación. Para la entrega de los bienes comunes se ha adelantado una revisión minuciosa del cumplimiento de norma, calidad de la obra y su adecuado funcionamiento.</p>
                 <p class="text-justify">Sin embargo, para garantizar la calidad de las zonas comunes, la empresa cuenta con un servicio de postventa que atenderá sus requerimientos siguiendo el procedimiento. </p>
@@ -80,7 +80,7 @@
 
                     </div>
 
-                    <!--COL1-->
+                    <!--COL2-->
                     <div class="col-6">
                         <h2 class="color6">CAPÍTULO 6</h2>
                         <p style="padding-bottom: 40px;">RECOMENDACIONES GENERALES</p>
@@ -96,7 +96,6 @@
 
                         <h2 class="color10">CAPÍTULO 10</h2>
                         <p style="padding-bottom: 40px;">ZONAS EXTERIORES</p>
-
                     </div>
                 </div>
         </section>
@@ -325,32 +324,36 @@
 
         <div class="row">
             <div class="col-sm-12 col-md-12">
-
-                <div class=" manm-switch manm-editor ">
-                    <h5 class="color2">ETAPA 1</h5>
-                    <p class="text-justify">Incluye la torre dos (2) con dieciséis (16) pisos  de altura y cubierta transitable, noventa y  tres (93) apartamentos de dos (2), tres (3),  y   cuatro  (4)   habitaciones   o   estudio, dos (2)  sótanos  y  doscientos  noventa  y   cuatro (294) parqueaderos privados, ochenta (80)  parqueaderos de visitantes, de este total siete. (7) son para personas con movilidad reducida  y ciento veintiocho (128) depósitos privados,  distribuidos en los dos (2) sótanos y piso uno (1),. Esta etapa también incluye: el equipamiento  comunal con tres (3) pisos de altura y las zonas  exteriores de la plataforma central, cuarto de  basura de la torre, cuarto técnico, tanques  de agua potable, de incendios y equipos de  bombeo de agua correspondientes, ubicados en los dos (2) sótanos.</p>
+                <div>
+                    <div class=" manm-switch manm-editor manm-dublicate-section">
+                        <h5 class="color2">ETAPA 1</h5>
+                        <p class="text-justify">Incluye la torre dos (2) con dieciséis (16) pisos  de altura y cubierta transitable, noventa y  tres (93) apartamentos de dos (2), tres (3),  y   cuatro  (4)   habitaciones   o   estudio, dos (2)  sótanos  y  doscientos  noventa  y   cuatro (294) parqueaderos privados, ochenta (80)  parqueaderos de visitantes, de este total siete. (7) son para personas con movilidad reducida  y ciento veintiocho (128) depósitos privados,  distribuidos en los dos (2) sótanos y piso uno (1),. Esta etapa también incluye: el equipamiento  comunal con tres (3) pisos de altura y las zonas  exteriores de la plataforma central, cuarto de  basura de la torre, cuarto técnico, tanques  de agua potable, de incendios y equipos de  bombeo de agua correspondientes, ubicados en los dos (2) sótanos.</p>
+                    </div>
                 </div>
-
-                <div class=" manm-switch manm-editor ">
-                    <h5 class="color2">ETAPA 2</h5>
-                    <p class="text-justify">Incluye la torre uno (1) con dieciséis (16) pisos  de altura y cubierta transitable con zona bbq,  cuartos  técnicos  y  baños,  ciento  veintiocho (128) apartamentos de una (1), dos (2), tres (3), y  cuatro (4) habitaciones o estudio, dos (2) sótanos  y sesenta y dos (62) parqueaderos privados,  diez (10) parqueaderos de visitantes, de este  total seis (6) son para personas con movilidad  reducida y noventa y tres (93) depósitos privados,  distribuidos en los dos (2) sótanos al igual que  la subestación eléctrica, planta de suplencia  parcial, cuarto técnico y cuarto de basuras de la torre.</p>
+                <div>
+                    <div class=" manm-switch manm-editor manm-dublicate-section">
+                        <h5 class="color2">ETAPA 2</h5>
+                        <p class="text-justify">Incluye la torre uno (1) con dieciséis (16) pisos  de altura y cubierta transitable con zona bbq,  cuartos  técnicos  y  baños,  ciento  veintiocho (128) apartamentos de una (1), dos (2), tres (3), y  cuatro (4) habitaciones o estudio, dos (2) sótanos  y sesenta y dos (62) parqueaderos privados,  diez (10) parqueaderos de visitantes, de este  total seis (6) son para personas con movilidad  reducida y noventa y tres (93) depósitos privados,  distribuidos en los dos (2) sótanos al igual que  la subestación eléctrica, planta de suplencia  parcial, cuarto técnico y cuarto de basuras de la torre.</p>
+                    </div>
                 </div>
-
-                <div class=" manm-switch manm-editor ">
-                    <h5 class="color2">ETAPA 3</h5>
-                    <p class="text-justify">Incluye la torre tres (3) con quince (15) pisos  de altura y cubierta transitable, ciento quince (115) apartamentos de una (1), dos (2), tres (3)  habitaciones, dos (2) sótanos y ochenta y siete (87) parqueaderos privados, de este total uno (1) es para personas con movilidad reducida  y ciento quince (115) depósitos privados,  distribuidos en los dos (2) sótanos al igual  que cuartos técnicos y cuarto de basuras de la torre.</p>
+                <div>
+                    <div class=" manm-switch manm-editor manm-dublicate-section">
+                        <h5 class="color2">ETAPA 3</h5>
+                        <p class="text-justify">Incluye la torre tres (3) con quince (15) pisos  de altura y cubierta transitable, ciento quince (115) apartamentos de una (1), dos (2), tres (3)  habitaciones, dos (2) sótanos y ochenta y siete (87) parqueaderos privados, de este total uno (1) es para personas con movilidad reducida  y ciento quince (115) depósitos privados,  distribuidos en los dos (2) sótanos al igual  que cuartos técnicos y cuarto de basuras de la torre.</p>
+                    </div>
                 </div>
-
-                <div class=" manm-switch manm-editor ">
-                    <h5 class="color2">ETAPA 4</h5>
-                    <p class="text-justify">Incluye la torre cuatro (4) con quince (15) pisos  de altura y cubierta en concreto no transitable, ciento un (101) apartamentos de una (1), dos  (2), tres (3), y cuatro (4) habitaciones o estudio,  dos (2) sótanos y noventa (90) parqueaderos  privados,dieciséis (16) parqueaderos de  visitantes, de este total ocho (8) son para  personas con movilidad reducida y ciento  un (101) depósitos	privados, distribuidos  en los dos (2) sótanos y piso 1 al igual que  la subestación eléctrica, planta de suplencia  parcial, cuarto técnico y cuarto de basuras.</p>
+                <div>
+                    <div class=" manm-switch manm-editor manm-dublicate-section">
+                        <h5 class="color2">ETAPA 4</h5>
+                        <p class="text-justify">Incluye la torre cuatro (4) con quince (15) pisos  de altura y cubierta en concreto no transitable, ciento un (101) apartamentos de una (1), dos  (2), tres (3), y cuatro (4) habitaciones o estudio,  dos (2) sótanos y noventa (90) parqueaderos  privados,dieciséis (16) parqueaderos de  visitantes, de este total ocho (8) son para  personas con movilidad reducida y ciento  un (101) depósitos	privados, distribuidos  en los dos (2) sótanos y piso 1 al igual que  la subestación eléctrica, planta de suplencia  parcial, cuarto técnico y cuarto de basuras.</p>
+                    </div>
                 </div>
             </div>  
         </div>
 
         <div class="row">
             <div class="col-sm-12 col-md-6">
-                <div class=" manm-switch manm-editor  ">
+                <div class=" manm-switch manm-editor  manm-dublicate-section">
                     <h4 class="color2">LOS COMUNALES</h4>
                     <p class="text-justify">El proyecto cuenta con un edificio comunal con los siguientes espacios:</p>
                 </div>
@@ -396,7 +399,7 @@
         <!--CON FONDO VERDE-->
         <h1 class="color2" style="text-align: center;">LAS VIVIENDAS</h1>
         <div class="container-fluid manm-green" style="background-color:#4a975d;">
-            <div class="row manm-switch manm-editor manm-dublicate-section" style="padding-top: 30px; padding-bottom: 30px;">
+            <div class="row manm-switch manm-editor  manm-dublicate-section" style="padding-top: 30px; padding-bottom: 30px;">
                 <div class="col-4">
                     <h3 class="text-center text-white"><strong>TORRE 1</strong> </h3>
                 </div>
@@ -421,58 +424,9 @@
         
 
         <div class="container-fluid">
-            <div class="row manm-switch manm-editor manm-dublicate-section" style="padding-top: 30px; padding-bottom: 30px;">
+            <div class="row manm-switch manm-editor  manm-dublicate-section" style="padding-top: 30px; padding-bottom: 30px;">
                 <div class="col-4">
                     <h3 class="text-center"><strong>TORRE 2</strong> </h3>
-                </div>
-                <div class="col-6">
-                    <lu>
-                        <p class="text-justify">Número de apartamentos en piso 1</p>
-                        <p class="text-justify">Número de apartamentos por piso del piso 2 al 16</p>
-                        <p class="text-justify">Número de pisos de vivienda</p>
-                        <p class="text-justify">Número de apartamentos por torre</p>
-                    </lu>          
-                </div>
-                <div class="col-2">
-                    <lu>
-                        <p class="text-left">8</p>
-                        <p class="text-justify">8</p>
-                        <p class="text-justify">16</p>
-                        <p class="text-justify">223</p>
-                    </lu>    
-                </div>
-            </div>
-        </div>
-
-        <div class="container-fluid manm-green" style="background-color:#4a975d;">
-            <div class="row manm-switch manm-editor manm-dublicate-section" style="padding-top: 30px; padding-bottom: 30px;">
-                <div class="col-4">
-                    <h3 class="text-center text-white"><strong>TORRE 3</strong> </h3>
-                </div>
-                <div class="col-6">
-                    <lu>
-                        <p class="text-justify text-white">Número de apartamentos en piso 1</p>
-                        <p class="text-justify text-white">Número de apartamentos por piso del piso 2 al 16</p>
-                        <p class="text-justify text-white">Número de pisos de vivienda</p>
-                        <p class="text-justify text-white">Número de apartamentos por torre</p>
-                    </lu>          
-                </div>
-                <div class="col-2">
-                    <lu>
-                        <p class="text-left text-white">8</p>
-                        <p class="text-justify text-white">8</p>
-                        <p class="text-justify text-white">16</p>
-                        <p class="text-justify text-white">223</p>
-                    </lu>    
-                </div>
-            </div>
-        </div>
-        
-
-        <div class="container-fluid">
-            <div class="row manm-switch manm-editor manm-dublicate-section" style="padding-top: 30px; padding-bottom: 30px;">
-                <div class="col-4">
-                    <h3 class="text-center"><strong>TORRE 4</strong> </h3>
                 </div>
                 <div class="col-6">
                     <lu>
@@ -578,7 +532,7 @@
                 
                 <div class="col-sm-12 col-md-6">
                     <div class=" manm-switch">
-                        <h5 class="color4">4.1 CONDICIONES DEL  MANTENIMIENTO</h5>
+                        <h5 class="color4 manm-editor">4.1 CONDICIONES DEL  MANTENIMIENTO</h5>
                         <p class="text-justify">Todo mantenimiento debe realizarse a  partir de las recomendaciones establecidas  por el manual de funcionamiento y mantenimiento del equipo o sus partes, elaborado  por el fabricante o firma especializada en  el tema. Para tal efecto también debe  tomarse en cuenta la fecha de terminación  de la construcción y puesta en operación  de los equipos e instalaciones.</p>
                         <p class="text-justify">Todos los equipos deben contar con  manual de operación, funcionamiento y  mantenimiento elaborado por la firma fabricante; De no contar con este, deberá ser  sometida a un peritaje previo para definir,  calidad de la instalación, condiciones de  operación, estado de funcionamiento y  mantenimiento.</p>
                         <p class="text-justify">Todos los mantenimientos deben  programarse a partir de la ficha técnica  específica de cada equipo en particular.</p>
@@ -619,11 +573,11 @@
                     </div>
 
                     <div class=" manm-switch">
-                        <h5 class="color5">5.2 GARANTÍAS POR FISURAS</h5>
+                        <h5 class="color5 manm-editor">5.2 GARANTÍAS POR FISURAS</h5>
                         <p class="text-justify">A partir de la fecha de entrega Usted tiene 1 (un)  año de garantía para informarnos su requerimiento  a través del PROCEDIMIENTO DE SOLICITUD DE  GARANTÍAS.</p>
                         <p class="text-justify">En el transcurso del primer año de entrega de  las áreas, se podrán presentar fisuras en muros  y techos producto del asentamiento normal del  edificio, las cuales serán reparadas por la constructora. Esta garantía se efectuará una sola vez por lo  que recomendamos haga su solicitud en el mes 12  de entregado su inmueble (término de garantía) y  no después de transcurrido este tiempo.</p>
                         <p class="text-justify">Es posible que, durante el período de asentamiento, se presenten fisuras especialmente en  los muros interiores, las cuales son normales y  no representan peligro para la estabilidad de la  construcción. También pueden presentarse tanto  en la placa de piso como en las placas de techo  que pueden verse reflejados en los acabados que  Usted instale. Aconsejamos no aplicar pinturas  especiales o de diferente color y moldura, hasta  tanto no se haga esta garantía.                        </p>
-                        <h5 class="color5">5.3.1 ¿EN QUÉ EVENTOS NO CUBRE LA GARANTÍA  DE FILTRACIONES Y GOTERAS?</h5>
+                        <h5 class="color5 manm-editor">5.3.1 ¿EN QUÉ EVENTOS NO CUBRE LA GARANTÍA  DE FILTRACIONES Y GOTERAS?</h5>
                         <lu>
                             <li class="text-justify">No se responderá por aquellos daños que se origen por hechos u  omisiones de parte del propietario por el manejo o desatención en las  recomendaciones contenidas en este manual.</li>
                             <li class="text-justify">Cuando las filtraciones son producidas por ruptura de las cubiertas  (techos) debido al tránsito indebido sobre estas estructuras.</li>
@@ -637,7 +591,7 @@
                     </div>
 
                     <div class=" manm-switch">
-                        <h5 class="color5">5.5  EXONERACIÓN DE  RESPONSABILIDAD DE LA GARANTÍA</h5>
+                        <h5 class="color5 manm-editor">5.5  EXONERACIÓN DE  RESPONSABILIDAD DE LA GARANTÍA</h5>
                         <p class="text-justify">Son causales de exoneración de la garantía legal:</p>
                         <lu>
                             <li class="text-justify">Los casos que obedezcan a fuerza mayor o  caso fortuito.</li>
@@ -648,7 +602,7 @@
                     </div>
 
                     <div class=" manm-switch">
-                        <h5 class="color5">5.7  SERVICIO DE GARANTÍAS Y/O POSVENTA</h5></br>
+                        <h5 class="color5 manm-editor">5.7  SERVICIO DE GARANTÍAS Y/O POSVENTA</h5></br>
                         <h6 class="color5">1. CÓMO INFORMAR UNA SOLICITUD PARA HACER EFECTIVAS  LAS GARANTÍAS</h6>
                         <p class="text-justify">Es importante aclarar que antes de la entrega de su apartamento este ya fue sometido a controles  técnicos de calidad, sin embargo, durante los primeros días en que usted habite su inmueble es normal  que se presenten algunos inconvenientes derivados del uso inicial.</p>
                         <p class="text-justify">Si su apartamento presente algún inconveniente le recomendamos dirigir su solicitud a los siguientes  canales para generar trazabilidad del caso, de esta forma garantizamos que su solicitud será atendida  de la manera adecuada.</p>
@@ -672,7 +626,7 @@
                         <p class="text-justify>">Posteriormente, se hace entrega al propietario o  persona autorizada de los trabajos ejecutados.  En el formato de SOLICITUD DE ATENCIÓN DE  GARANTÍAS está previsto que el propietario o la  persona autorizada firme en señal de aceptación  los trabajos realizados.</p>
                         <p class="text-justify>">Por favor tenga en cuenta que en temporada de fin  de año, los tiempos de atención de las garantías  pueden modificarse, CONSTRUCTORA BOLÍVAR
                         <p class="text-justify>">S.A. le notificará con antelación cualquier cambio.  Es importante que evalúe el tipo de solicitud que  se presente durante esta temporada, ya que se le  dará prioridad a las emergencias.</p>    
-                        <h5 class="color5">5.7.3 QUÉ HACER CUANDO MI  SOLICITUD SUPERA EL AÑO DE  GARANTÍA</h5>
+                        <h6 class="color5 manm-editor">5.7.3 QUÉ HACER CUANDO MI  SOLICITUD SUPERA EL AÑO DE  GARANTÍA</h6>
                         <p class="text-justify">Una vez su apartamento cumple 12 meses de  entregado ingresa por un proceso de verificación  técnica, en el cual se brinda una asesoría telefónica  por parte de un equipo técnico, el cual determi-  nará, de acuerdo a la trazabilidad del caso si su  solicitud aplica o no.</p>
                     </div>
                 </div>
@@ -680,7 +634,7 @@
                 <!--col 2-->
                 <div class="col-sm-12 col-md-6">
                     <div class=" manm-switch">
-                        <h5 class="color5">5.1 ¿EN QUÉ EVENTOS NO CUBRE  LA GARANTÍA DE LOS  ACABADOS ENTREGADOS?</h5>
+                        <h5 class="color5 manm-editor">5.1 ¿EN QUÉ EVENTOS NO CUBRE  LA GARANTÍA DE LOS  ACABADOS ENTREGADOS?</h5>
                         <lu>
                             <li class="text-justify">Cuando el propietario, realice la instalación  de acabados en los cuales se modifique  y/o intervengan los elementos entregados  (puerta principal, cerraduras, aparatos eléctricos y sanitarios) Constructora Bolívar S.A.  no asumirá estas garantías.</li>
                             <li class="text-justify">En aquellos acabados no instalados entre-  gados por CONSTRUCTORA BOLÍVAR S.A</li>
@@ -691,7 +645,7 @@
                     </div>
 
                     <div class=" manm-switch">
-                        <h5 class="color5">5.2.1 ¿EN QUÉ EVENTOS NO CUBRE  LA GARANTÍA DE FISURAS?</h5>
+                        <h6 class="color5 manm-editor">5.2.1 ¿EN QUÉ EVENTOS NO CUBRE  LA GARANTÍA DE FISURAS?</h6>
                         <lu>
                             <li class="text-justify">No se responderá por aquellos  daños que se originen por hechos u  omisiones de parte del propietario  por el manejo o desatención en las  recomendaciones contenidas en  este manual.                        </li>
                             <li class="text-justify">Las fisuras producidas en los  acabados no  instalados  por  Constructora Bolívar, tales como  pañetes, estucos, pinturas,  enchapes, etc.</li>
@@ -701,16 +655,16 @@
                     </div>
 
                     <div class=" manm-switch">
-                        <h5 class="color5">5.3 GARANTÍAS POR FILTRACIONES O GOTERAS</h5>
+                        <h5 class="color5 manm-editor">5.3 GARANTÍAS POR FILTRACIONES O GOTERAS</h5>
                         <p class="text-justify">A partir de la fecha de entrega Usted tiene 1 (un)  año de garantía para informarnos su requerimiento  a través del PROCEDIMIENTO DE SOLICITUD DE  GARANTÍAS.                    </p>
                         <p class="text-justify">En el transcurso de la vida útil del inmueble se  pueden presentar filtraciones al interior de su  apartamento, producto del desgaste al cual son  sometidos los materiales que se encuentran a la  intemperie, como lo son cubierta, bajantes de  aguas lluvias, ventanería y fachada.                    </p>
                         <p class="text-justify">La red hidráulica y sanitaria puede generar filtraciones a partir del proceso de asentamiento y  verse reflejadas en cualquier zona de la edificación: techos, paredes y suelos.</p>
-                        <h5 class="color5">5.4  GARANTÍAS DE LA ESTRUCTURA</h5>
+                        <h5 class="color5 manm-editor">5.4  GARANTÍAS DE LA ESTRUCTURA</h5>
                         <p class="text-justify">A partir de la fecha de entrega Usted tiene 10  (diez) AÑOS DE GARANTÍA para informarnos su  requerimiento a través del PROCEDIMIENTO  DE SOLICITUD DE GARANTÍAS.</p>
                     </div>
 
                     <div class=" manm-switch">
-                        <h5 class="color5">5.4.1¿EN QUÉ EVENTOS NO CUBRE  LA GARANTÍA DE ESTRUCTURA?</h5>
+                        <h6 class="color5 manm-editor">5.4.1¿EN QUÉ EVENTOS NO CUBRE  LA GARANTÍA DE ESTRUCTURA?</h6>
                         <lu>
                             <li class="text-justify">En caso de modificación de muros,  placas, techos y pisos realizados para  pasar cables, tuberías eléctricas,  sanitarias, hidráulicas y de gas, etc.,  diferentes a las entregadas.</li>
                             <li class="text-justify">En el momento que se generen  daños por  modificaciones  o  intervenciones realizadas por un  vecino o tercero.</li>
@@ -721,7 +675,7 @@
                     </div>
 
                     <div class=" manm-switch">
-                        <h5 class="color5">5.6  RECOMENDACIONES ESPECIALES</h5>
+                        <h5 class="color5 manm-editor">5.6  RECOMENDACIONES ESPECIALES</h5>
                             <p class="text-justify">Todo daño causado a su inmueble y a los  inmuebles vecinos, debido a modificaciones  inadecuadas a la estructura deberán ser reparados  en su totalidad por usted, de conformidad con  las normas y procedimientos de reparación de  estructuras vigentes en su momento y deberá  aportar pruebas a la administración del conjunto,  tales como fotografías, especificaciones de los  insumos y elementos utilizados en la reparación.</p>
                             <p class="text-justify">CONSTRUCTORA BOLÍVAR S.A está en libertad de  informar a los entes gubernamentales respectivos  sobre dichas modificaciones y las consecuencias  sobre la estabilidad de la edificación.</p>
                             <p class="text-justify">La vida útil de su vivienda, requiere de una preocupación constante para la aplicación de medidas  preventivas de mantenimiento, cuidado y uso.</p>
@@ -743,7 +697,7 @@
                     </div>
 
                     <div class=" manm-switch">
-                        <h5 class="color5">5.9 PROHIBICIONES</h5>
+                        <h5 class="color5 manm-editor">5.9 PROHIBICIONES</h5>
                         <lu>
                             <li class="text-justify">Destinar su inmueble para fines contrarios  a la moral y a las buenas costumbres, o  prohibidos por las leyes o las autoridades.</li>
                             <li class="text-justify">No sostener en los muros estructurales,  losas, techos, cargas o pesos excesivos.  Introducir en los maderos o hacer huecos  de cavidad, y en general, ejecutar cualquier  obra que atente contra la solidez de las  edificaciones.</li>
@@ -789,7 +743,7 @@
                     <!--COL1 CAP6-->
                     <div class="col-sm-12 col-md-6">
                         <div class=" manm-switch">
-                            <h5 class="color6">6.1 RECOMENDACIONES BÁSICAS DE SEGURIDAD</h5>
+                            <h5 class="color6 manm-editor">6.1 RECOMENDACIONES BÁSICAS DE SEGURIDAD</h5>
                                 <p class="text-center">Recuerde que cualquier trabajo de mantenimiento y reparación, debe ser realizado teniendo en cuenta las medidas básicas de seguridad, no olvide utilizar las herramientas adecuadas y verificar su uso y  precauciones antes de utilizarlas.</p>
                             <ul>
                                 <li class="text-justify">Evite guardar y manipular dentro  de  la vivienda o en depósitos, materiales  inflamables o  explosivos  (gasolina,  parafinas, pólvora, disolventes).</li>
@@ -807,20 +761,20 @@
                         </div>
 
                         <div class=" manm-switch">
-                            <h5 class="color6">6.3	RECOMENDACIONES  SOBRE FISURAS</h5>
+                            <h5 class="color6 manm-editor">6.3	RECOMENDACIONES  SOBRE FISURAS</h5>
                                 <p class="text-justify">Recuerde que es normal que se presenten fisuras  en muros, techos y pisos debido al material en el  que fueron construidos, estas fisuras no significan  riesgo estructural para la vivienda, y no disminuye  su resistencia a los esfuerzos sísmicos. Si usted  instala acabados en su vivienda, la reparación de  estas fisuras, debe ser asumida como parte del  mantenimiento, dada su condición de inevitable.</p>
                                 <p class="text-justify">No olvide prever las dilataciones necesarias, al  momento de instalar los acabados de su vivienda,  de no hacerlo, se pueden generar pequeñas  fisuras en estos materiales.</p>
                         </div>
 
                         <div class=" manm-switch">
-                            <h5 class="color6">6.5 ÓRGANOS DE ADMINISTRACIÓN Y DIRECCIÓN DEL CONJUNTO</h5>
+                            <h5 class="color6 manm-editor">6.5 ÓRGANOS DE ADMINISTRACIÓN Y DIRECCIÓN DEL CONJUNTO</h5>
                                 <p class="text-justify">La dirección y administración le corresponde a la  Asamblea General de propietarios, al Consejo de  Administración y al Administrador del conjunto.</p>
                                 <p class="text-justify">Cada uno de los órganos de administración tiene  facultades específicamente detalladas en el reglamento de propiedad horizontal.</p>
                         </div>
 
                         <div class=" manm-switch">
-                            <h6 class="color6">6.5.1 ASAMBLEA GENERAL DE  PROPIETARIOS</h6>
-                                <p class="text-justify">La constituirán todos los propietarios de bienes  privados, o sus representantes o delegados, que  integran el conjunto los cuales tendrán derecho  a participar en sus deliberaciones y a votar en  ella. El voto de cada propietario equivaldrá al  porcentaje del coeficiente de copropiedad del  respectivo bien privado. Las decisiones adoptadas  de acuerdo con las normas legales y reglamentarias, son de obligatorio cumplimiento para todos  los propietarios, inclusive para los ausentes o disidentes, para el administrador y demás órganos, y  en lo pertinente para los usuarios y ocupantes del  conjunto. Dentro de sus funciones esta:</p>
+                            <h6 class="color6 manm-editor">6.5.1 ASAMBLEA GENERAL DE  PROPIETARIOS</h6>
+                                <p class="text-justify ">La constituirán todos los propietarios de bienes  privados, o sus representantes o delegados, que  integran el conjunto los cuales tendrán derecho  a participar en sus deliberaciones y a votar en  ella. El voto de cada propietario equivaldrá al  porcentaje del coeficiente de copropiedad del  respectivo bien privado. Las decisiones adoptadas  de acuerdo con las normas legales y reglamentarias, son de obligatorio cumplimiento para todos  los propietarios, inclusive para los ausentes o disidentes, para el administrador y demás órganos, y  en lo pertinente para los usuarios y ocupantes del  conjunto. Dentro de sus funciones esta:</p>
                                 <lu>
                                     <li class="text-justify">Aprobar o improbar los estados financieros.</li>
                                     <li class="text-justify">Aprobar el presupuesto anual del conjunto  y las cuotas de administración.</li>
@@ -831,7 +785,7 @@
                         </div>
 
                         <div class=" manm-switch">
-                            <h6 class="color6">6.5.3 EL ADMINISTRADOR</h6>
+                            <h6 class="color6 manm-editor">6.5.3 EL ADMINISTRADOR</h6>
                                 <p class="text-justify">La representación legal del conjunto y la  administración está bajo la responsabilidad del  Administrador, que es escogido por el consejo de  Administración. Entre sus funciones esta:</p>
                                 <ul>
                                     <li class="text-justify">Convocar a la asamblea a reuniones  ordinarias o extraordinarias.</li>
@@ -847,25 +801,17 @@
                     <!--COL 2 CAP6-->
                     <div class="col-sm-12 col-md-6">
                         <div class=" manm-switch">
-                            <h5 class="color6">6.2 RECOMENDACIONES  CONDENSACIÓN</h5>
+                            <h5 class="color6 manm-editor">6.2 RECOMENDACIONES  CONDENSACIÓN</h5>
                             <p class="text-justify">Recuerde que la condensación se produce al  interior de su vivienda, debido a que el aire se  transforma en agua al contacto con las superficies frías de los muros y vidrios de las ventanas,  produciendo Humedad.</p>
-                            <h6 class="color6">6.2.1 ¿CÓMO SE GENERA HUMEDAD  AL INTERIOR DE SU VIVIENDA?</h6>
+                            <h6 class="color6 manm-editor">6.2.1 ¿CÓMO SE GENERA HUMEDAD  AL INTERIOR DE SU VIVIENDA?</h6>
                                 <ul>
                                     <li class="text-justify">Los materiales con los cuales se construyó  su vivienda fueron trabajados con agua,  y esta demora un año en eliminarse por  completo.</li>
                                     <li class="text-justify">La acumulación de vapor de agua que se  produce al cocinar, calefaccionar, secar  ropa o simplemente debido a la respiración  humana, produce humedad que se  condensa en paredes, ventanas y techos.</li>
                                 </ul><br>
                         </div>
 
-                        <div class=" manm-switch">   
-                            <h6 class="color6">6.2.1 ¿CÓMO SE GENERA HUMEDAD  AL INTERIOR DE SU VIVIENDA?</h6>
-                            <ul>
-                                <li class="text-justify">Los materiales con los cuales se construyó  su vivienda fueron trabajados con agua,  y esta demora un año en eliminarse por  completo.</li>
-                                <li class="text-justify">La acumulación de vapor de agua que se  produce al cocinar, calefaccionar, secar  ropa o simplemente debido a la respiración  humana, produce humedad que se  condensa en paredes, ventanas y techos.</li>
-                            </ul><br>
-                        </div>
-
                         <div class=" manm-switch">
-                            <h6 class="color6">6.2.2 ¿CÓMO PREVENIR LA HUMEDAD  DE SU VIVIENDA?</h6>
+                            <h6 class="color6 manm-editor">6.2.2 ¿CÓMO PREVENIR LA HUMEDAD  DE SU VIVIENDA?</h6>
                                 <ul>
                                     <li class="text-justify">Mantener mínimo una ventana entreabierta,  mientras cocina.</li>
                                     <li class="text-justify">Secar a primera hora de la mañana los  vidrios que aparecen mojados.</li>
@@ -876,7 +822,7 @@
                         </div>
 
                         <div class=" manm-switch">
-                            <h6 class="color6">6.2.3 ¿QUÉ PASA SI NO TENGO EN  CUENTA LAS RECOMENDACIONES  PARA EVITAR HUMEDAD?</h6>
+                            <h6 class="color6 manm-editor">6.2.3 ¿QUÉ PASA SI NO TENGO EN  CUENTA LAS RECOMENDACIONES  PARA EVITAR HUMEDAD?</h6>
                                 <ul>
                                     <li class="text-justify">Favorece la formación de hongos y la  propagación de enfermedades.</li>
                                     <li class="text-justify">Manchas en los muros.</li>
@@ -886,7 +832,7 @@
                         </div>
 
                         <div class=" manm-switch">
-                            <h5 class="color6">6.4   RECOMENDACIONES ESPECIALES</h5>
+                            <h5 class="color6 manm-editor">6.4 RECOMENDACIONES ESPECIALES</h5>
                                 <p class="text-justify">Todo daño causado a su inmueble y a los  inmuebles vecinos, debido a modificaciones  inadecuadas a la estructura deberán ser reparados  en su totalidad por Usted, de conformidad con  las normas y procedimientos de reparación de  estructuras vigentes en su momento y deberá  aportar pruebas a la administración del conjunto,  tales como fotografías, especificaciones de los insumos y elementos utilizados en la reparación.</p>
                                 <p class="text-justify">No olvide que durante el tiempo de garantía  es su responsabilidad permitir el acceso a  su inmueble al personal de la constructora  para que verifiquen posibles daños que  estén  causando  afectaciones  sus vecinos.</p>
                                 <p class="text-justify">CONSTRUCTORA BOLÍVAR S.A está en libertad de informar a los entes gubernamentales  respectivos sobre dichas modificaciones y las  consecuencias sobre la estabilidad de la edifi-  cación.</p>
@@ -894,7 +840,7 @@
                         </div>
 
                         <div class=" manm-switch">
-                            <h6 class="color6">6.5.2 CONSEJO DE ADMINISTRACIÓN</h6>
+                            <h6 class="color6 manm-editor">6.5.2 CONSEJO DE ADMINISTRACIÓN</h6>
                             <p class="text-justify">El consejo de Administración será nombrado por  la Asamblea de copropietarios, para periodos de  un año, los miembros del Consejo serán propietarios de viviendas del Conjunto. Dentro de sus  funciones esta:</p>
                             <lu>
                                 <li class="text-justify">Nombrar al administrador del Conjunto</li>
@@ -913,11 +859,11 @@
                                 <p class="text-justify">Recuerde que por ser propietario de vivienda  usted tiene unas obligaciones ciudadanas que  cumplir así:</p>        
                         </div>  
                         <div class=" manm-switch"> 
-                            <h6 class="color6">6.6.1 IMPUESTO PREDIAL</h6>
+                            <h6 class="color6 manm-editor">6.6.1 IMPUESTO PREDIAL</h6>
                             <p class="text-justify">Desde que escritura, su vivienda debe  empezar a pagar el impuesto predial,  recuerde que la entidad recaudadora  de impuestos otorga unos plazos de  pago con descuentos.</p>
                         </div>
                         <div class=" manm-switch"> 
-                            <h6 class="color6">6.6.2 AGUA, ENERGÍA Y GAS</h6>
+                            <h6 class="color6 manm-editor">6.6.2 AGUA, ENERGÍA Y GAS</h6>
                             <p class="text-justify">Los servicios de los que haga uso en  su vivienda se pagan de acuerdo a su  consumo dentro de unos plazos estableci-  dos por cada entidad, que en caso de no  hacerlo podrá suspenderle el servicio, evite  reconexiones.</p>
                         </div>
                     </div>
@@ -944,8 +890,8 @@
                     <!--COL1 Cap7-->
                     <div class="col-sm-12 col-md-6">
                         <div class=" manm-switch">
-                            <h5 class="color7">7.1 PISOS Y ENCHAPES</h5>
-                                <h6 class="color7">7.1.1 ADOQUÍN</h6>
+                            <h5 class="color7 manm-editor">7.1 PISOS Y ENCHAPES</h5>
+                                <h6 class="color7 manm-editor">7.1.1 ADOQUÍN</h6>
                                 <h6 class="color7">Recomendaciones generales/ mantenimiento</h6>
                                 <lu>
                                     <li class="text-justify">Mantener el relleno de juntas sellandolo con arena periódicamente, debido  a la acción erosiva de los agentes climatológicos y ambientales.</li>
@@ -957,7 +903,7 @@
                         </div>
 
                             <div class=" manm-switch">
-                                <h6 class="color7">7.1.3 PORCELANATOS</h6>
+                                <h6 class="color7 manm-editor">7.1.3 PORCELANATOS</h6>
                                 <h6 class="color7">Recomendaciones generales/ mantenimiento</h6>
                                 <lu>
                                     <li class="text-justify">Evite limpiadores grasos o ácidos como el hipoclorito de sodio puro, productos  que contengan ácido Fluorhídrico o detergentes sólidos que puedan tener  partículas abrasivas. Estos agentes corroen la superficie del porcelanato y  pueden causar daños permanentes en su acabado.</li>
@@ -972,7 +918,7 @@
                             </div>
 
                             <div class=" manm-switch">
-                                <h6 class="color7">7.1.5 PISO LAMINADO</h6>
+                                <h6 class="color7 manm-editor">7.1.5 PISO LAMINADO</h6>
                                 <h6 class="color7">Recomendaciones generales/ mantenimiento</h6>
                                 <lu>
                                     <li class="text-justify">Se recomienda la utilización de tapete atrapamugre a la entrada de la vivienda  o del sitio donde se instaló el piso. (recuerde que la arena, pequeñas piedras  y en general los materiales arcillosos son altamente abrasivos, por lo que  pueden rayar o marcar el piso), debe utilizar felpas para las patas de los  muebles y evite arrastrar objetos que puedan generar rayones.</li>
@@ -1000,7 +946,7 @@
                             </div>
 
                             <div class=" manm-switch">
-                                <h5 class="color7">7.3 CARPINTERÍA DE MADERA</h5>
+                                <h5 class="color7 manm-editor">7.3 CARPINTERÍA DE MADERA</h5>
                                 <h6 class="color7">Recomendaciones generales/ mantenimiento</h6>
                                 <p class="text-justify">Indicaciones de buen uso:</p>
                                     <lu>
@@ -1029,7 +975,7 @@
                             </div>
                             
                             <div class=" manm-switch">
-                                <h5 class="color7">7.5 MESONES EN GRANITO O  MÁRMOL</h5> 
+                                <h5 class="color7 manm-editor">7.5 MESONES EN GRANITO O  MÁRMOL</h5> 
                                 <h6 class="color7">Recomendaciones de limpieza y mantenimiento</h6>
                                     <lu>
                                         <li class="text-justify">Los materiales en cuarzo son versátiles para  usar en todo tipo de lugar, sin embargo, el  revestimiento puede tener alteraciones en  sus características según el uso que se les  dé, tanto en resistencia como en coloración.</li>
@@ -1059,7 +1005,7 @@
                             </div>
                             
                             <div class=" manm-switch">
-                                <h5 class="color7">7.10 CERÁMICA SANITARIA</h5>
+                                <h5 class="color7 manm-editor">7.10 CERÁMICA SANITARIA</h5>
                                 <h6 class="color7">Recomendaciones generales/ mantenimiento</h6>
                                     <ul>
                                         <li class="text-justify">Nunca use elementos abrasivos para  realizar la limpieza, puede generar rayas al  acabado exterior</li>
@@ -1078,7 +1024,7 @@
                             </div>
 
                             <div class=" manm-switch">
-                                <h5 class="color7">7.12 LAVAPLATOS EN ACERO  INOXIDABLE</h5>
+                                <h5 class="color7 manm-editor">7.12 LAVAPLATOS EN ACERO  INOXIDABLE</h5>
                                 <h6 class="color7">Recomendaciones generales/ mantenimiento</h6>
                                     <ul>
                                         <li class="text-justify">Se debe evitar el contacto con sustancias  como: ácido muriático, ácido sulfúrico y  yodo ya que estas sustancias dañan su  película protectora generando óxido. Evitar  también el uso de esponjillas metálicas que  rayen la superficie.</li>
@@ -1091,7 +1037,7 @@
                             </div>
 
                             <div class=" manm-switch">
-                                <h5 class="color7">7.13 CERRADURAS</h5>
+                                <h5 class="color7 manm-editor">7.13 CERRADURAS</h5>
                                 <h6 class="color7">Recomendaciones generales/ mantenimiento</h6>
                                     <ul>
                                         <li class="text-justify">Evite forzar la manija o cantonera, si el  producto presenta dificultades para abrir o  cerrar.</li>
@@ -1102,7 +1048,7 @@
                             </div>
 
                             <div class=" manm-switch">
-                                <h5 class="color7">7.14 ELECTRODOMÉSTICOS</h5>
+                                <h5 class="color7 manm-editor">7.14 ELECTRODOMÉSTICOS</h5>
                                 <h6 class="color7">Recomendaciones generales/ mantenimiento</h6>
                                     <ul>
                                         <li class="text-justify">Para limpiar alguno de estos elementos,  se recomienda bajar el taco en el tablero  de circuitos y cerrar el registro de gas ,  que corresponde al aparato o a la cocina  para evitar accidentes, cortos eléctricos  y escapes de gas. Después de la limpieza  dejar el taco apagado por un tiempo corto  para que se seque cualquier humedad  interna que pueda filtrarse por las uniones.  verificar que todos los componentes</li>
@@ -1112,7 +1058,7 @@
                                     </ul><br>
                             </div>
 
-                            <div class=" manm-switch">
+                            <div class="manm-switch">
                                 <h5 class="color7">CONSEJOS EN CASO DE FUGA DE GAS</h5>
                                     <ul>
                                         <li class="text-justify">Abra puertas y ventanas permitiendo  ventilar la casa, especialmente el  lugar donde se ha producido la fuga y  concentrado el gas.</li>
@@ -1147,7 +1093,7 @@
                             </div>
 
                             <div class=" manm-switch">
-                                <h6 class="color7">7.14.2 HORNO</h6>
+                                <h6 class="color7 manm-editor">7.14.2 HORNO</h6>
                                 <h6 class="color7">Recomendaciones generales/ mantenimiento</h6>
                                 <ul>
                                     <li class="text-justify">Siga las recomendaciones de uso y  mantenimiento dadas en el manual  entregado junto con el elemento.</li>
@@ -1190,7 +1136,7 @@
                             </div>
 
                             <div class=" manm-switch">
-                                <h5 class="color7">7.19 MAMPOSTERÍA</h5>
+                                <h5 class="color7 manm-editor">7.19 MAMPOSTERÍA</h5>
                                 <h6 class="color7">Recomendaciones generales/ mantenimiento</h6>
                                     <ul>
                                         <li class="text-justify">La    mampostería    no    estructural    está    conformada   por   ladrillos   de   arcilla   o   concreto unidos con mortero conformando así  los  muros;  estos  están  anclados  a  la  estructura  por  un  sistema  de  amarre  sin  hacer parte de los elementos estructurales de la unidad de vivienda. </li>
@@ -1208,7 +1154,7 @@
                     <!--COL2 Cap7-->
                     <div class="col-sm-12 col-md-6">
                         <div class=" manm-switch">
-                            <h6 class="color7">7.1.2 ENCHAPES CERÁMICOS</h6>
+                            <h6 class="color7 manm-editor">7.1.2 ENCHAPES CERÁMICOS</h6>
                             <h6 class="color7">Recomendaciones generales/ mantenimiento</h6>
                                 <lu>
                                     <li class="text-justify">Evite deslizar o arrastrar muebles sobre las superficies, lo cual puede ocasionar  rayones permanentes.</li>
@@ -1231,7 +1177,7 @@
                             
 
                         <div class=" manm-switch">
-                            <h6 class="color7">7.1.4 GRES</h6>
+                            <h6 class="color7 manm-editor">7.1.4 GRES</h6>
                             <h6 class="color7">Recomendaciones generales/ mantenimiento</h6>
                                 <lu>
                                     <li class="text-justify">Abstenerse de utilizar Ácidos, ACPM, detergentes en polvo, productos que  afectan o dificultan la limpieza.</li>
@@ -1245,7 +1191,7 @@
                         </div>
 
                         <div class=" manm-switch">
-                            <h6 class="color7">7.1.6 TAPETE</h6>
+                            <h6 class="color7 manm-editor">7.1.6 TAPETE</h6>
                             <h6 class="color7">Recomendaciones generales/ mantenimiento</h6>
                                 <lu>
                                     <li class="text-justify">Aspira las alfombras con frecuencia para impedir la acumulación de polvo,  al menos tres veces por semanas en lugares de tránsito medio, y a diario en  zonas de mayor uso.</li>
@@ -1258,8 +1204,8 @@
                         </div>
                             
                         <div class=" manm-switch">
-                            <h5 class="color7">7.2 PINTURA EN MUROS</h5>
-                            <h6 class="color7">7.2.1 PINTURA VINILO</h6>
+                            <h5 class="color7 manm-editor">7.2 PINTURA EN MUROS</h5>
+                            <h6 class="color7 manm-editor">7.2.1 PINTURA VINILO</h6>
                             <h6 class="color7">Recomendaciones generales/ mantenimiento</h6>
                                 <lu>
                                     <li class="text-justify">No se deben limpiar los muros pintados  antes de 45 días de la fecha de entrega  del inmueble, con el fin de garantizar  la completa adherencia al muro y evitar  desprendimientos de la pintura.</li>
@@ -1271,7 +1217,7 @@
                         </div>
                         
                         <div class=" manm-switch">
-                            <h6 class="color7">7.2.2 GRANIPLAST</h6>
+                            <h6 class="color7 manm-editor">7.2.2 GRANIPLAST</h6>
                             <h6 class="color7">Recomendaciones generales/ mantenimiento</h6>
                                 <lu>
                                     <li class="text-justify">Limpieza inicial de la fachada con  terminación en Graniplast con  hidrolavadora de 1600 psi de presión de agua para exponer las áreas donde se  ha deteriorado por el paso del tiempo  y la exposición a la intemperie. Este  tratamiento deja al descubierto las zonas  de la fachada donde se haya levantado la  pintura y pintura y donde se han formado  fisuras, manchas de hongos, zonas  abombadas, por lo cual se procede a  lijar y descascarillar toda el área y de esa  manera dejarla lista para su resane.</li>
@@ -1282,7 +1228,7 @@
                         </div>
 
                         <div class=" manm-switch">
-                            <h5 class="color7">7.4 CARPINTERÍA METÁLICA</h5>
+                            <h5 class="color7 manm-editor">7.4 CARPINTERÍA METÁLICA</h5>
                             <h6 class="color7">Recomendaciones generales/ mantenimiento</h6>
                                 <lu>
                                     <li class="text-justify">No selle las ventanas o rejillas ya que  permiten la ventilación natural de su  vivienda, evitando humedades por  condensación al interior.</li>
@@ -1302,7 +1248,7 @@
                         </div>
                         
                         <div class=" manm-switch">
-                            <h5 class="color7">7.6 CIELO RASO EN DRYWALL</h5>
+                            <h5 class="color7 manm-editor">7.6 CIELO RASO EN DRYWALL</h5>
                             <h6 class="color7">Recomendaciones generales/ mantenimiento</h6>
                                 <ul>
                                     <li class="text-justify">Los cielorasos en drywall, son el acabado  que se le da a la superficie de techo de  su apartamento, son láminas de yeso  descolgadas de la placa estructural  por medio de una estructura de lámina  galvanizada anclada a esta, con un acabado  con masilla y vinilo blanco. Estos elementos  son autoportantes (solo soportan su propio  peso), por lo tanto, no es recomendable  descolgar objetos o lámparas pesadas de  este material.</li>
@@ -1313,7 +1259,7 @@
                         </div>
 
                         <div class=" manm-switch">
-                            <h5 class="color7">7.7  DIVISIONES DE VIDRIO EN BAÑOS</h5>
+                            <h5 class="color7 manm-editor">7.7  DIVISIONES DE VIDRIO EN BAÑOS</h5>
                             <h6 class="color7">Recomendaciones generales/ mantenimiento</h6>
                                 <ul>
                                     <li class="text-justify">Evite los golpes fuertes y secos en cualquiera  de los elementos de vidrio para evitar que  el vidrio se quiebre causando accidentes.</li>
@@ -1326,7 +1272,7 @@
                         </div>
                         
                         <div class=" manm-switch">
-                            <h5 class="color7">7.8  BARANDAS EN VIDRIO</h5>
+                            <h5 class="color7 manm-editor">7.8  BARANDAS EN VIDRIO</h5>
                             <h6 class="color7">Recomendaciones generales/ mantenimiento</h6>
                                 <ul>
                                     <li class="text-justify">Las barandas de los balcones, son elementos  en vidrio templado con pasamanos tubular  en aluminio negro anclado a muro, estas  están soportadas en la parte inferior con  un sistema de platina en cold rolled tipo  bolsillo, en el que está embebido el vidrio  de la baranda en el bordillo en concreto  para mayor estabilidad.</li>
@@ -1340,7 +1286,7 @@
                         </div>
 
                         <div class=" manm-switch">
-                            <h5 class="color7">7.9  ESPEJOS</h5>
+                            <h5 class="color7 manm-editor">7.9  ESPEJOS</h5>
                             <h6 class="color7">Recomendaciones generales/ mantenimiento</h6>
                                 <ul>
                                     <li class="text-justify">Limpie con paño húmedo o con toallas  de papel de cocina, evite usar productos  fuertes como blanqueadores ya que estos  pueden manchar la superficie. Se puede  utilizar agua jabonosa o algún producto  especializado para este tipo de superficies.</li>
@@ -1351,7 +1297,7 @@
                         </div>
 
                         <div class=" manm-switch">
-                            <h5 class="color7">7.11 GRIFERÍA Y ACCESORIOS</h5>
+                            <h5 class="color7 manm-editor">7.11 GRIFERÍA Y ACCESORIOS</h5>
                             <h6 class="color7">Recomendaciones generales/ mantenimiento</h6>
                                 <ul>
                                     <li class="text-justify">La importancia de mantener el buen estado  de griferías, no sólo ayuda a prevenir el  desperdicio de agua, sino que también  garantiza la durabilidad de este producto,  es decir, su vida útil.</li>
@@ -1377,7 +1323,7 @@
                         </div>
 
                         <div class=" manm-switch">
-                            <h6 class="color7">7.14.1 ESTUFA</h6>
+                            <h6 class="color7 manm-editor">7.14.1 ESTUFA</h6>
                             <h6 class="color7">Recomendaciones generales/ mantenimiento</h6>
                                 <ul>
                                     <li class="text-justify">La ubicación incorrecta de la tapa sobre  la fuente de calor puede ocasionar mala  combustión y deterioro de la fuente de calor  de aluminio. Los daños son ocasionados  a la fuente de calor por la inadecuada  manipulación.</li>
@@ -1391,7 +1337,7 @@
                         </div>
 
                         <div class=" manm-switch">
-                            <h5 class="color7">RECOMENDACIONES SOBRE  EL MANEJO DE LAS VÁLVULAS</h5>
+                            <h5 class="color7 manm-editor">RECOMENDACIONES SOBRE  EL MANEJO DE LAS VÁLVULAS</h5>
                             <p class="text-justify">Las válvulas son accesorios delicados que deben  manejarse con mucho cuidado, no sólo en su transporte y almacenamiento, sino durante su uso. He  aquí algunas recomendaciones:</p>
                                 <ul>
                                     <li class="text-justify">No haga fuerza a las perillas más allá del  tope de ABIERTO y CERRADO.</li>
@@ -1427,7 +1373,7 @@
                         </div>
 
                         <div class=" manm-switch">
-                            <h5 class="color7">7.15 CALENTADOR TIRO FORZADO</h5>
+                            <h5 class="color7 manm-editor">7.15 CALENTADOR TIRO FORZADO</h5>
                             <h6 class="color7">Recomendaciones generales/ mantenimiento</h6>
                                 <ul>
                                     <li class="text-justify">El mantenimiento del calentador, deberá  realizarse cada año, realizando las siguientes  operaciones:</li>
@@ -1441,7 +1387,7 @@
                         </div>
 
                         <div class=" manm-switch">
-                            <h5 class="color7">7.16 CALENTADOR TIRO NATURAL</h5>
+                            <h5 class="color7 manm-editor">7.16 CALENTADOR TIRO NATURAL</h5>
                             <h6 class="color7">Recomendaciones generales/ mantenimiento</h6>
                                 <ul>
                                     <li class="text-justify">Todos los calentadores instalados en el  proyecto son de tiro natural, para que  estos funcionen correctamente tienen una  batería o pila tipo D (no incluida dentro del  calentador) que acciona el piloto o chispero  y el panel digital del calentador. Esta cuenta  con dos válvulas, una para la red de gas y  otra para la red hidráulica de suministro.</li>
@@ -1458,7 +1404,7 @@
                         </div>
 
                         <div class=" manm-switch">
-                            <h5 class="color7">7.17 CALENTADOR ELÉCTRICO</h5>
+                            <h5 class="color7 manm-editor">7.17 CALENTADOR ELÉCTRICO</h5>
                             <h6 class="color7">Recomendaciones generales/ mantenimiento</h6>
                                 <ul>
                                     <li class="text-justify">Compruebe que su calentador esté  conectado a la red eléctrica mediante el  cable de conexión.</li>
@@ -1471,7 +1417,7 @@
                         </div>
 
                         <div class=" manm-switch">
-                            <h5 class="color7">7.18 PUERTAS CORTAFUEGO</h5>
+                            <h5 class="color7 manm-editor">7.18 PUERTAS CORTAFUEGO</h5>
                             <h6 class="color7">Recomendaciones generales/ mantenimiento</h6>
                                 <ul>
                                     <li class="text-justify">Nunca Bloquee las puertas con cuñas,  ceniceros, extintores u otros objetos  para evitar que la puerta se cierre</li>
@@ -1488,7 +1434,7 @@
                         </div>
                         
                         <div class=" manm-switch">
-                            <h5 class="color7">7.20 PAÑETE</h5>
+                            <h5 class="color7 manm-editor">7.20 PAÑETE</h5>
                             <h6 class="color7">Recomendaciones generales/ mantenimiento</h6>
                             <ul>
                                 <li class="text-justify">Al aplicar pañete en muros y techos,  debe permitir que la mezcla se adhiera  correctamente y no se desprenda y caiga  al suelo. Permita un tiempo prudente de  secado.</li>
@@ -1519,7 +1465,7 @@
                 <!--COL1 CAP8-->
                 <div class="col-sm-12 col-md-6">
                     <div class=" manm-switch">
-                        <h5 class="color8">8.1 AIRE ACONDICIONADO</h5>
+                        <h5 class="color8 manm-editor">8.1 AIRE ACONDICIONADO</h5>
                         <h6 class="color8">Recomendaciones generales/ mantenimiento</h6>
                         <ul>
                             <li class="text-justify">El personal a contratar por el propietario  deberá suministrar mano de obra  altamente especializada para efectuar el  montaje completo de los equipos de Aire  Acondicionado y hacer las conexiones  eléctricas y de desagües finales de los  mismos.</li>
@@ -1534,7 +1480,7 @@
                     </div>
 
                     <div class=" manm-switch">
-                        <h5 class="color8">8.2 ANTENA Y REDES DE TELEVISIÓN</h5>
+                        <h5 class="color8 manm-editor">8.2 ANTENA Y REDES DE TELEVISIÓN</h5>
                         <h6 class="color8">Recomendaciones generales/ mantenimiento</h6>
                         <ul>
                             <li class="text-justify">Para instalaciones de operadores de cable,  cada operador debe instalar su cable y  antena, utilizando las bandejas porta cables  y ductería definida para este fin, NO puede  cablear sobre fachada ni sobre muros  interiores de los puntos fijos (corredores,  vacíos y escaleras).</li>
@@ -1543,7 +1489,7 @@
                     </div>
 
                     <div class=" manm-switch">
-                        <h5 class="color8">8.3.1 ILUMINACIÓN DE EMERGENCIA</h5>
+                        <h5 class="color8 manm-editor">8.3.1 ILUMINACIÓN DE EMERGENCIA</h5>
                         <ul>
                             <li class="text-justify">Se instalaron lámparas de iluminación para  evacuación de emergencia que se activan  cuando se ha ido el fluido eléctrico público  más el de la planta eléctrica. Estas lámparas  cuentan con baterías de autonomía de una  hora que están conectadas a una fuente  de suministro de energía  monofásica  permanente para permanecer con carga.  En caso de falla de las lámparas se deberá  reemplazar la batería o en su defecto la  lámpara en su totalidad dependiendo del  origen de la falla. La ficha técnica indica que  las baterías de estas lámparas tienen una  duración estimada de un año. Las lámparas  están instaladas en pasillos y escaleras de  evacuación.</li>
                             <li class="text-justify">Se debe  verificar  el  estado  de  funcionamiento de las mismas testeandolas  una vez al mes.</li>
@@ -1551,7 +1497,7 @@
                     </div>
 
                     <div class=" manm-switch">
-                        <h5 class="color8">8.3.2 LUMINARIAS INTERIORES SENSORES DE MOVIMIENTO</h5>
+                        <h5 class="color8 manm-editor">8.3.2 LUMINARIAS INTERIORES SENSORES DE MOVIMIENTO</h5>
                         <ul>
                             <li class="text-justify">Se indica que las luminarias de halles  interiores tienen una vida útil estimada  de 4 años, y deberán reemplazarse  cuando generen intermitencia, disminuyan  luminosidad o se fundan estas unidades se  denominan led de placa de bajo consumo  energético.</li>
                             <li class="text-justify">Utilice únicamente paños secos para limpiar  la superficie de la luz. El uso de cualquier sustancia química podría dañar las superficie del producto.</li>
@@ -1562,7 +1508,7 @@
                     </div>
 
                     <div class=" manm-switch">
-                        <h5 class="color8">8.5 HIDRÁULICA</h5>
+                        <h5 class="color8 manm-editor">8.5 HIDRÁULICA</h5>
                         <h6 class="color8">Recomendaciones generales/ mantenimiento</h6>
                         <ul>
                             <li class="text-justify">No realice modificaciones a las instalaciones  hidráulicas que se entregan.</li>
@@ -1579,7 +1525,7 @@
                     </div>
 
                     <div class=" manm-switch">
-                        <h5 class="color8">8.8 SANITARIAS</h5>
+                        <h5 class="color8 manm-editor">8.8 SANITARIAS</h5>
                         <h6 class="color8">Recomendaciones generales/ mantenimiento</h6>
                         <ul>
                             <li class="text-justify">No realice modificaciones a las instalaciones  sanitarias que se entregan con su vivienda.</li>
@@ -1596,7 +1542,7 @@
                     </div>
 
                     <div class=" manm-switch">
-                        <h6 class="color8">8.8.1 CARCAMOS</h6>
+                        <h6 class="color8 manm-editor">8.8.1 CARCAMOS</h6>
                         <ul>
                             <li class="text-justify">En los sótanos existen cajas de paso  conectadas a través de tuberías tipo  novafort que interconectan, cañuelas,  sifones, cárcamos a pozos eyectores; Redes  que deben ser revisadas periódicamente  y sondeadas en el evento en que hayan  acumulado arenas y lodos.</li>
                             <li class="text-justify">Para su mantenimiento la rejilla debe ser  retirada en caso de cárcamo y/o tapa en  caso de cajas de paso.</li>
@@ -1605,7 +1551,7 @@
                     </div>
 
                     <div class=" manm-switch">
-                        <h6 class="color8">8.8.2 CAÑUELAS PERIMETRALES  MURO DE LIMPIEZA</h6>
+                        <h6 class="color8 manm-editor">8.8.2 CAÑUELAS PERIMETRALES  MURO DE LIMPIEZA</h6>
                         <ul>
                             <li class="text-justify">Como      labores      de      mantenimiento      preventivo, se deben lavar las cañuelas con manguera y cepillo para barrer sedimentos y   destapar   los   desagües   de   conexión   de  cañuelas  a  sifones  y  cajas  de  bombas  sumergibles.</li>
                             <li class="text-justify">Realizar inspección para detectar fisuras  o fallas en las cañuelas, en caso de rotura  por alguna causa externa se recomienda  realizar la reparación a la mayor brevedad  posible.</li>
@@ -1619,7 +1565,7 @@
                 <!--COL2 CAP8-->
                 <div class="col-sm-12 col-md-6">                
                     <div class=" manm-switch">
-                        <h5 class="color8">8.3 ELÉCTRICA</h5>
+                        <h5 class="color8 manm-editor">8.3 ELÉCTRICA</h5>
                         <h6 class="color8">Recomendaciones generales/ mantenimiento</h6>
                         <ul>
                             <li class="text-justify">No sobrecargue los  tomacorrientes  instalando objetos como multi-tomas u  objetos similares.</li>
@@ -1634,7 +1580,7 @@
                     </div>
 
                     <div class=" manm-switch">
-                        <h5 class="color8">8.4 GAS</h5>
+                        <h5 class="color8 manm-editor">8.4 GAS</h5>
                         <h6 class="color8">Recomendaciones generales/ mantenimiento</h6>
                         <ul>
                             <li class="text-justify">Por normativa y para garantizar la correcta  ventilación de su vivienda, se instalaron  rejillas de ventilación, es importante  mantener estas áreas despejadas para  permitir el constante flujo de aire. Por ningún  motivo, selle o tape estas ventilaciones ya  que le garantizan mejores condiciones de  habitabilidad evitando acumulación de  gases tóxicos.</li>
@@ -1647,14 +1593,14 @@
                     </div>
 
                     <div class=" manm-switch">
-                        <h5 class="color8">8.5.1 GABINETES MEDIDORES AGUA</h5>
+                        <h5 class="color8 manm-editor">8.5.1 GABINETES MEDIDORES AGUA</h5>
                         <ul>
                             <li class="text-justify">Los medidores para suministro de agua  de ½”, están aforados por la empresa de  acueducto con número de cuenta para  cada inmueble. Los medidores cuentan  con válvula de corte antes y después del  medidor en cumplimiento de especificación  técnica. Se recomienda no manipular las  válvulas de corte para control de paso,  en el entendido que estrangular el flujo  no minimiza la presión de suministro. En  caso de escape, rotura de tubería, se debe  acudir a personal especializado. Se indica  que el medidor hace parte del bien privado  de cada inmueble y el mantenimiento de  los gabinetes solo corresponde a labores  de inspección, aseo y mantenimiento de  pintura.</li>
                         </ul><br>
                     </div>
 
                     <div class=" manm-switch">
-                        <h5 class="color8">8.5.2 GABINETES RED CONTRA  INCENDIOS</h5>
+                        <h5 class="color8 manm-editor">8.5.2 GABINETES RED CONTRA  INCENDIOS</h5>
                         <ul>
                             <li class="text-justify">En cada piso se encuentra dispuesto un  gabinete que contiene (Manguera de 1 ½” de 30 mts / hacha de 4,5 lbs , llave  cierre rápido para conexión de manguera /  extintor ABC de 10 lbs en cumplimiento de</li>
                             <li class="text-justify">norma	NFPA	y	reglamentación	para  bomberos.</li>
@@ -1666,8 +1612,8 @@
                     </div>
 
                     <div class=" manm-switch">
-                        <h5 class="color8">8.6 INTERRUPTORES Y BREAKERS</h5>
-                        <h6 class="color8">Recomendaciones generales/ mantenimiento</h6>
+                        <h5 class="color8 manm-editor">8.6 INTERRUPTORES Y BREAKERS</h5>
+                        <h6 class="color8 manm-editor">Recomendaciones generales/ mantenimiento</h6>
                         <ul>
                             <li class="text-justify">El mantenimiento de los interruptores,  disyuntores, breakers o protecciones  eléctricas merece una consideración  especial debido a su gran importancia  para la conmutación y la protección de las  acometidas y los equipos.</li>
                             <li class="text-justify">Los procedimientos de mantenimiento  básicos y las pruebas eléctricas adecuadas  son esenciales para la máxima fiabilidad de  las protecciones.</li>
@@ -1683,8 +1629,8 @@
                     </div>
 
                     <div class=" manm-switch">
-                        <h5 class="color8">8.7 REDES GENERALES  DESCOLGADAS EN SÓTANO</h5>
-                        <h6 class="color8">Recomendaciones generales/ mantenimiento</h6>
+                        <h5 class="color8 manm-editor">8.7 REDES GENERALES  DESCOLGADAS EN SÓTANO</h5>
+                        <h6 class="color8 manm-editor">Recomendaciones generales/ mantenimiento</h6>
                         <ul>
                             <li class="text-justify">Se encuentran debidamente identificadas, de acuerdo con su tipo de contenido.</li>
                             <p class="text-justify"><strong>ROJO:</strong> red contra incendios.</p>
@@ -1699,7 +1645,7 @@
                     </div>
 
                     <div class=" manm-switch">
-                        <h5 class="color8">8.9 TELEFONÍA FIJA</h5>
+                        <h5 class="color8 manm-editor">8.9 TELEFONÍA FIJA</h5>
                         <h6 class="color8">Recomendaciones generales/ mantenimiento</h6>
                         <ul>
                             <li class="text-justify">Las líneas telefónicas parten del strip  general y son distribuidas por ducto  localizado en el punto fijo de cada torre  en piso uno en ducto, sobre una bandeja  porta cables. Estas suben por la vertical  destinada para este fin hacia las cajas de  paso que se encuentran en el punto fijo  piso por piso al interior de las torres. De las  cajas de paso se lleva una red de tubería al  interior de cada vivienda.</li>
@@ -1734,7 +1680,7 @@
                 <!--COL1 CAP9-->
                 <div class="col-sm-12 col-md-6">
                     <div class=" manm-switch">
-                        <h5 class="color9">9.1 ASCENSOR</h5>
+                        <h5 class="color9 manm-editor">9.1 ASCENSOR</h5>
                         <h6 class="color9">Recomendaciones generales/ mantenimiento</h6>
                         <ul>
                             <li class="text-justify">La operación del equipo requiere  de personal especializado que haga  seguimiento, control, calibración y ajuste de  partes mecánicas y eléctricas para mantener  el sistema en condiciones adecuadas.</li>
@@ -1755,7 +1701,7 @@
                     </div>
 
                     <div class=" manm-switch">
-                        <h5 class="color9">9.3 CABEZAL DE PRUEBA</h5>
+                        <h5 class="color9 manm-editor">9.3 CABEZAL DE PRUEBA</h5>
                         <h6 class="color9">Recomendaciones generales/ mantenimiento</h6>
                         <ul>
                             <li class="text-justify">En cumplimiento de norma técnica nfpa 20  y 25 y debido a la potencia en la descarga  de la bomba de red contra incendio (+600-  750) GPM (Galones por minuto) se instaló  una terminal llamada cabezal de prueba  para probar la eficiencia del equipo en  caudal y presión.</li>
@@ -1768,7 +1714,7 @@
                 <!--COL2 CAP9-->
                 <div class="col-sm-12 col-md-6">
                     <div class=" manm-switch">
-                        <h5 class="color9">9.2 BOMBAS</h5>
+                        <h5 class="color9 manm-editor">9.2 BOMBAS</h5>
                         <h6 class="color9">9.2.1 BOMBAS DE SUMINISTRO</h6>
                         <h6 class="color9">Recomendaciones generales/ mantenimiento</h6>
                         <ul>
@@ -1786,8 +1732,7 @@
                     </div>
 
                     <div class=" manm-switch">
-                        <h5 class="color9"></h5>
-                        <h6 class="color9">9.2.2 BOMBAS EYECTORAS</h6>
+                        <h6 class="color9 manm-editor">9.2.2 BOMBAS EYECTORAS</h6>
                         <ul>
                             <li class="text-justify">La operación del sistema requiere de personal especializado	que	hagaseguimiento, control, calibración y ajuste de la programación de suministro, revisión  de elementos mecánicos y eléctricos con  objeto de mantener el sistema en perfectas  condiciones.</li>
                             <li class="text-justify">Es discrecional de la administración escoger  el proveedor técnico para el mantenimiento  a partir que sea idóneo en labores de  mantenimiento.</li>
@@ -1796,7 +1741,7 @@
                     </div>
 
                     <div class=" manm-switch">
-                        <h5 class="color9">9.4 EQUIPOS DE PISCINA</h5>
+                        <h5 class="color9 manm-editor">9.4 EQUIPOS DE PISCINA</h5>
                         <h6 class="color9">Recomendaciones generales/ mantenimiento</h6>
                         <ul>
                             <li class="text-justify">Cada seis meses se debe revisar los   rodamientos y el sello de la motobomba,  limpiar el impulsor, medir amperaje y  temperatura del motor. Ajustar la bornera  y revisar que el cable no este picado. Se  debe solicitar asesoría de un proveedor  especializado.</li>
@@ -1829,7 +1774,7 @@
             <div class="row">
                 <div class="col-sm-12 col-md-6">
                     <div class=" manm-switch">
-                        <h5 class="color10">10.1 CERRAMIENTO PERIMETRAL</h5>
+                        <h5 class="color10 manm-editor">10.1 CERRAMIENTO PERIMETRAL</h5>
                         <h6 class="color10">Recomendaciones generales/ mantenimiento</h6>
                         <ul>
                             <li class="text-justify">Los elementos expuestos a intemperie son  susceptibles de afectarse con oxidación  por efectos de humedad, radiación solar,  la meteorización de la pintura y base  protectora, la acción abrasiva de las  partículas arrastradas por el viento, el  vandalismo, etc. que aumentan el proceso  de degradación de los elementos metálicos  en el cerramiento, tanto en perjuicio de  sus cualidades mecánicas como estéticas.  Para recuperar estos elementos y evitar  su degradación excesiva se deben aplicar  pinturas especificadas para exteriores  preferiblemente con componentes de  anticorrosivo, esmaltes y protección  UV  dependiendo de la calidad y calibre de la  capa protectora.</li>
@@ -1846,7 +1791,7 @@
 
                     <div>
                         <div class="col manm-switch">
-                            <h5 class="color10">10.3 JARDINERAS</h5>
+                            <h5 class="color10 manm-editor">10.3 JARDINERAS</h5>
                             <h6 class="color10">Recomendaciones generales/ mantenimiento</h6>
                             <ul>
                                 <p class="text-justify">El primer año de vida de las zonas Verdes  es crucial para el desarrollo del ecosistema  diverso y la consolidación del ser vivo que  éste representa. Es probable que durante  los 3 primeros meses después de terminada  la siembra, haya un pequeño porcentaje  de plantas que no se hayan adaptado y  que deban ser reemplazadas. Con el paso  del tiempo, el techo verde se consolida  gracias al adecuado balance de luz, agua y  nutrientes y su sostenibilidad y longevidad  dependerá del adecuado mantenimiento.</p>
@@ -1864,7 +1809,7 @@
                 <!--COL2 CAP10-->
                 <div class="col-sm-12 col-md-6">
                     <div class="col manm-switch">
-                        <h5 class="color10">10.2 FACHADAS EXTERIORES</h5>
+                        <h5 class="color10 manm-editor">10.2 FACHADAS EXTERIORES</h5>
                         <h6 class="color10">Recomendaciones generales/ mantenimiento</h6>
                         <ul>
                             <li class="text-justify">Las fachadas, está compuesta por los muros,  ventanas, placas, rejillas de ventilación y  barandas que están entre las unidades  de vivienda y las zonas comunes, tanto al  exterior como al interior del proyecto. Ya  que estos son bienes comunes esenciales,  NO podrán demolerse parcial ni totalmente  pues estas pertenecen a la copropiedad, su  modificación atentará contra la estabilidad  de la construcción.</li>

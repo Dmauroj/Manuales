@@ -5,190 +5,192 @@
 */
 /* CLASES CREADAS */
 
-
-/*CAP 1*/
-h6.color1  {
-  color: #fcd555;
-}
-h5.color1  {
+  /*CAP 1*/
+  h6.color1  {
     color: #fcd555;
   }
-h4.color1  {
-    color: #fcd555;
-  }
-
-h2.color1  {
-color: #fcd555;
-}
-
-/*CAP 2*/
-h6.color2 {
-    color: #4a975d;
-}
-h5.color2 {
-    color: #4a975d;
-  }
-h4.color2 {
-    color: #4a975d;
-  }
-
-h1.color2 {
-color: #4a975d;
-}
-
-h2.color2 {
-    color: #4a975d;
-  }
-
-/*CAP 3*/
-p.color3 {
-  color: #cf6b49;
-}
-
-h4.color3 {
-    color: #cf6b49;
-}
-
-h5.color3 {
-    color: #cf6b49;
-}
-
-h6.color3 {
-    color: #cf6b49;
-}
-
-h2.color3 {
-    color: #cf6b49;
-}
-
-
-/*CAP 4*/
-h4.color4 {
-    color: #a43939;
-  }
-
-h5.color4 {
-color: #a43939;
-}
-
-h6.color4 {
-    color: #a43939;
-}
-
-
-/*CAP 5*/
-h6.color5 {
-  color: #1ab2c6;
-}
-
-h5.color5 {
-color: #1ab2c6;
-}
-
-h4.color5 {
-color: #1ab2c6;
-}
-
-h2.color5 {
-    color: #1ab2c6;
-}
-
-p.color5 {
-    color: #1ab2c6;
-}
-
-/*CAP 6*/
-h6.color6 {
-  color: #2b5394;
-}
-
-h5.color6 {
-color: #2b5394;
-}
-
-h4.color6 {
-color: #2b5394;
-}
-
-h2.color6 {
-    color: #2b5394;
+  h5.color1  {
+      color: #fcd555;
+    }
+  h4.color1  {
+      color: #fcd555;
     }
 
-/*CAP 7*/
-h6.color7 {
-  color: #c42c86;
-}
+  h2.color1  {
+  color: #fcd555;
+  }
 
-h5.color7 {
+  /*CAP 2*/
+  h6.color2 {
+      color: #4a975d;
+  }
+  h5.color2 {
+      color: #4a975d;
+    }
+  h4.color2 {
+      color: #4a975d;
+    }
+
+  h1.color2 {
+  color: #4a975d;
+  }
+
+  h2.color2 {
+    color: #4a975d;
+    }
+
+
+  /*CAP 3*/
+  p.color3 {
+    color: #cf6b49;
+  }
+
+  h4.color3 {
+      color: #cf6b49;
+  }
+
+  h5.color3 {
+      color: #cf6b49;
+  }
+
+  h6.color3 {
+      color: #cf6b49;
+  }
+
+  h2.color3 {
+      color: #cf6b49;
+  }
+
+
+  /*CAP 4*/
+  h4.color4 {
+      color: #a43939;
+    }
+
+  h5.color4 {
+  color: #a43939;
+  }
+
+  h6.color4 {
+      color: #a43939;
+  }
+
+  h2.color4 {
+    color: #a43939;
+  }
+
+  /*CAP 5*/
+  h6.color5 {
+    color: #1ab2c6;
+  }
+
+  h5.color5 {
+  color: #1ab2c6;
+  }
+
+  h4.color5 {
+  color: #1ab2c6;
+  }
+
+  h2.color5 {
+      color: #1ab2c6;
+  }
+
+  p.color5 {
+      color: #1ab2c6;
+  }
+
+  /*CAP 6*/
+  h6.color6 {
+    color: #2b5394;
+  }
+
+  h5.color6 {
+  color: #2b5394;
+  }
+
+  h4.color6 {
+  color: #2b5394;
+  }
+
+  h2.color6 {
+      color: #2b5394;
+      }
+
+  /*CAP 7*/
+  h6.color7 {
     color: #c42c86;
-}
+  }
 
-h4.color7 {
-color: #c42c86;
-}
+  h5.color7 {
+      color: #c42c86;
+  }
 
-h2.color7 {
-color: #c42c86;
-}
-  
-/*CAP 8*/
-h6.color8 {
-  color: #70a751;
-}
+  h4.color7 {
+  color: #c42c86;
+  }
 
-h5.color8 {
+  h2.color7 {
+  color: #c42c86;
+  }
+    
+  /*CAP 8*/
+  h6.color8 {
     color: #70a751;
-}
+  }
 
-h4.color8 {
-    color: #70a751;
-}
+  h5.color8 {
+      color: #70a751;
+  }
 
-h2.color8 {
-    color: #70a751;
-}
+  h4.color8 {
+      color: #70a751;
+  }
 
-/*CAP 9*/
-h6.color9 {
-  color: #7d579e;
-}
+  h2.color8 {
+      color: #70a751;
+  }
 
-h5.color9 {
+  /*CAP 9*/
+  h6.color9 {
     color: #7d579e;
-}
+  }
 
-h4.color9 {
-    color: #7d579e;
-}
+  h5.color9 {
+      color: #7d579e;
+  }
 
-h2.color9 {
-    color: #7d579e;
-}
+  h4.color9 {
+      color: #7d579e;
+  }
+
+  h2.color9 {
+      color: #7d579e;
+  }
 
 
-/*CAP 10*/
-h6.color10 {
-  color: #f48e36;
-}
-
-h5.color10 {
+  /*CAP 10*/
+  h6.color10 {
     color: #f48e36;
-}
+  }
 
-h4.color10 {
-    color: #f48e36;
-}
+  h5.color10 {
+      color: #f48e36;
+  }
 
-h2.color10 {
-    color: #f48e36;
-}
+  h4.color10 {
+      color: #f48e36;
+  }
+
+  h2.color10 {
+      color: #f48e36;
+  }
 
 
-/* corte de páginas*/
+  /* corte de páginas*/
 
-hr {
-    page-break-before: always;
-}
+  hr {
+      page-break-before: always;
+  }
 
-/* corte de páginas*/
-
+  /* corte de páginas*/

@@ -14,13 +14,12 @@ function manm_manual_list_function () {
             ?>
                 <div class="row">
                     <div class="col-md-8 justify-content-start">
-                        <h4><?php echo $manual->post_title; ?></h4>
+                        <h5><?php echo $manual->post_title; ?></h5>
                     </div>
                     <div class="col-md-4 justify-content-end">
                         <a href="<?php echo get_permalink($manual->ID); ?>" class="btn btn-success">Visualizar</a>
                     </div>
                 </div>
-            </div>
             <?php
         }
         ?> </div> <?php

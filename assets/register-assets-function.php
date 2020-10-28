@@ -14,6 +14,14 @@ function manm_styles_enqueue_styles() {
     wp_enqueue_style( 'manm-admin-styles');
     wp_register_style('manm-default-styles', plugins_url('/css/manm-default-styles.css', __FILE__), '1', true);
     wp_enqueue_style( 'manm-default-styles');
+
+    $user = wp_get_current_user();
+    $userID = $user->data->ID;
+
+    if($userID == 0) {
+        wp_register_style('manm-comment-styles', plugins_url('/css/manm-comment-style.css', __FILE__), '1', true);
+        wp_enqueue_style( 'manm-comment-styles');
+    }
 }
 add_action( 'wp_enqueue_scripts', 'manm_styles_enqueue_styles',10);
 

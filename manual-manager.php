@@ -2,8 +2,8 @@
 /*
 Plugin Name: Manual Manager
 Plugin URI: https://daxosline.com
-Description: 
-Version: 0.1
+Description: Este plugin crea distintos tipos de manuales a partir de uno manual base, con gestion de usuarios y listas de manuales.
+Version: 0.2
 Author: Daxos
 Author URI: https://daxosline.com
 */
@@ -39,3 +39,5 @@ require_once('modules/manm-save-module.php');
 require_once('modules/manm-delete-module.php');
 require_once('tools/generate-button-edit.php');
 require_once('views/manm-manual-list.php');
+require_once('views/manm-manual-trash.php');
+require_once('tools/manm-upload-images.php');
