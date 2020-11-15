@@ -33,7 +33,7 @@ function manm_save_module () {
         wp_set_post_categories($success,$categories[0]->term_id);
 
         if ($success) {
-            echo 200;
+            echo $success;
         } else {
             echo 402;
         }

@@ -24,14 +24,14 @@ function manm_delete(forceDelete, post_id) {
                     jQuery("#manm-alert").removeClass().addClass("alert alert-success");
                     jQuery("#manm-alert").html("El manual ha sido eliminado exitosamente");
                 } else {
-                    jQuery("#manm-alert").removeClass().addClass("alert alert-danger");
-                    jQuery("#manm-alert").html("Error"+ data +": Ha ocurrido un error, intente mas tarde");
+                    //jQuery("#manm-alert").removeClass().addClass("alert alert-danger");
+                    //jQuery("#manm-alert").html("Error"+ data +": Ha ocurrido un error, intente mas tarde");
                 }
                 setTimeout(() => {
                     jQuery("#manm-alert").removeClass().addClass("d-none");
                     jQuery("#manm-alert").html("");
                     location.href = "/";
-                }, 3000);
+                }, 2000);
 			},
 			error: function(err){
                 jQuery('#manm-delete').html("Eliminar manual");
@@ -47,75 +47,125 @@ function manm_delete(forceDelete, post_id) {
         });
 }
 
+function manm_restore(post_id) {
+    var data = {
+        'action': 'manm_untrash_module',
+        'post_id': post_id
+    }
+
+    jQuery.ajax({
+        type: 'POST',
+        url: manm_ajax.ajaxurl,
+        data,
+        success: function(data){
+            console.log(data);
+            if (data == 200) {
+                jQuery("#manm-alert").removeClass().addClass("alert alert-success");
+                jQuery("#manm-alert").html("El manual ha sido restaurado exitosamente");
+            } else {
+                jQuery("#manm-alert").removeClass().addClass("alert alert-danger");
+                jQuery("#manm-alert").html("Error"+ data +": Ha ocurrido un error, intente mas tarde");
+            }
+            setTimeout(() => {
+                jQuery("#manm-alert").removeClass().addClass("d-none");
+                jQuery("#manm-alert").html("");
+                location.href = "/";
+            }, 2000);
+        },
+        error: function(err){
+            jQuery("#manm-alert").removeClass().addClass("alert alert-danger");
+            jQuery("#manm-alert").html("Error 501: Ha ocurrido un error en el servidor, intente mas tarde");
+            setTimeout(() => {
+                jQuery("#manm-alert").removeClass().addClass("d-none");
+                jQuery("#manm-alert").html("");
+            }, 3000);
+
+            console.log(err);
+        }
+    });
+}
+
+function manm_save () {
+    var role = jQuery("#manm-id-role").val();
+
+    jQuery("[contenteditable=true]").prop("contenteditable","false");
+    jQuery(".manm-btn-more").parent().remove();
+    
+    if (role === "editor2") {
+        jQuery("[contenteditable=true]").prop("contenteditable","false");
+        jQuery(".custom-control.custom-switch").remove();
+        jQuery(".manm-switch").css('padding','0');
+        jQuery(".manm-switch").css('margin-bottom','0');
+        jQuery(".manm-switch").css('background-color','transparent');
+        jQuery(".manm-switch").css('border','none');
+        jQuery(".manm-d-none").html("");
+        jQuery(".manm-d-none").removeClass("manm-d-none");
+    }
+    
+    var data = {
+        'action': 'manm_save_manual',
+        'manual': jQuery("#manm-init").html(),
+        'id_post': jQuery("#manm-id-post").val(),
+        'title': jQuery("#manm-title").text(),
+        'id_user': jQuery('#manm-id-autor').val()
+    }
+
+    if(jQuery('#manm-duplicate-post').val() === '1') {
+        data.duplicate = true;
+    }
+
+    //console.log(data)
+
+    jQuery.ajax({
+        type: 'POST',
+        url: manm_ajax.ajaxurl,
+        data,
+        beforeSend : function () {
+            jQuery('#manm-btn-submit').val('<div class="spinner-border text-secondary" role="status"><span class="sr-only">Loading...</span></div>');
+        },
+        success: function(data){
+            jQuery('#manm-btn-submit').html("Guardar");
+            if (data !== 400) {
+                jQuery("#manm-alert").removeClass().addClass("alert alert-success");
+                jQuery("#manm-alert").html("El manual ha sido guardado exitosamente");
+                jQuery("#manm-id-post").val(data);
+                jQuery("#del-back").attr("id","del-"+data);
+                jQuery("[contenteditable=false]").prop("contenteditable","true");
+            } else {
+                jQuery("#manm-alert").removeClass().addClass("alert alert-danger");
+                jQuery("#manm-alert").html("Error"+ data +": Ha ocurrido un error, intente mas tarde");
+            }
+            setTimeout(() => {
+                jQuery("#manm-alert").removeClass().addClass("d-none");
+                jQuery("#manm-alert").html("");
+            }, 5000);
+
+            console.log(data);
+        },
+        error: function(err){
+            jQuery('#manm-btn-submit').html("Guardar");
+            jQuery("#manm-alert").removeClass().addClass("alert alert-danger");
+            jQuery("#manm-alert").html("Error 501: Ha ocurrido un error en el servidor, intente mas tarde");
+            setTimeout(() => {
+                jQuery("#manm-alert").removeClass().addClass("d-none");
+                jQuery("#manm-alert").html("");
+            }, 5000);
+            console.log(err);
+        }
+    });
+}
+
 jQuery(document).ready(function(){
+
+    jQuery('#manm-update').ready(_ => {
+        setInterval(() => {
+            manm_save();
+        }, 60000);
+    });
 
     jQuery('#manm-update').submit(function(event){
         event.preventDefault();
-        var role = jQuery("#manm-id-role").val();
-
-        jQuery("[contenteditable=true]").prop("contenteditable","false");
-        jQuery(".manm-btn-more").parent().remove();
-        
-        if (role === "editor2") {
-            jQuery("[contenteditable=true]").prop("contenteditable","false");
-            jQuery(".custom-control.custom-switch").remove();
-            jQuery(".manm-switch").css('padding','0');
-            jQuery(".manm-switch").css('margin-bottom','0');
-            jQuery(".manm-switch").css('background-color','transparent');
-            jQuery(".manm-switch").css('border','none');
-            jQuery(".manm-d-none").html("");
-            jQuery(".manm-d-none").removeClass("manm-d-none");
-        }
-        
-        var data = {
-            'action': 'manm_save_manual',
-            'manual': jQuery("#manm-init").html(),
-            'id_post': jQuery("#manm-id-post").val(),
-            'title': jQuery("#manm-title").text(),
-            'id_user': jQuery('#manm-id-autor').val()
-        }
-
-        if(jQuery('#manm-duplicate-post').val() === '1') {
-            data.duplicate = true;
-        }
-
-        //console.log(data)
-
-		jQuery.ajax({
-			type: 'POST',
-			url: manm_ajax.ajaxurl,
-            data,
-            beforeSend : function () {
-                jQuery('#manm-btn-submit').val('<div class="spinner-border text-secondary" role="status"><span class="sr-only">Loading...</span></div>');
-            },
-			success: function(data){
-                jQuery('#manm-btn-submit').html("Guardar");
-                if (data == 200) {
-                    jQuery("#manm-alert").removeClass().addClass("alert alert-success");
-                    jQuery("#manm-alert").html("El manual ha sido guardado exitosamente");
-                } else {
-                    jQuery("#manm-alert").removeClass().addClass("alert alert-danger");
-                    jQuery("#manm-alert").html("Error"+ data +": Ha ocurrido un error, intente mas tarde");
-                }
-                setTimeout(() => {
-                    jQuery("#manm-alert").removeClass().addClass("d-none");
-                    jQuery("#manm-alert").html("");
-                    location.href = "/";
-                }, 5000);
-
-				console.log(data);
-			},
-			error: function(err){
-                jQuery('#manm-btn-submit').html("Guardar");
-                jQuery("#manm-alert").removeClass().addClass("alert alert-danger");
-                jQuery("#manm-alert").html("Error 501: Ha ocurrido un error en el servidor, intente mas tarde");
-                setTimeout(() => {
-                    jQuery("#manm-alert").removeClass().addClass("d-none");
-                    jQuery("#manm-alert").html("");
-                }, 5000);
-                console.log(err);
-			}
-        });
+        manm_save();
     });
 });
 
@@ -148,41 +198,7 @@ jQuery(document).ready(function () {
 
     jQuery(".manm-restore").click(e => {
         var id = e.target.id.slice(4);
-        var data = {
-            'action': 'manm_untrash_module',
-            'post_id': id
-        }
-
-        jQuery.ajax({
-			type: 'POST',
-			url: manm_ajax.ajaxurl,
-            data,
-			success: function(data){
-                console.log(data);
-                if (data == 200) {
-                    jQuery("#manm-alert").removeClass().addClass("alert alert-success");
-                    jQuery("#manm-alert").html("El manual ha sido restaurado exitosamente");
-                } else {
-                    jQuery("#manm-alert").removeClass().addClass("alert alert-danger");
-                    jQuery("#manm-alert").html("Error"+ data +": Ha ocurrido un error, intente mas tarde");
-                }
-                setTimeout(() => {
-                    jQuery("#manm-alert").removeClass().addClass("d-none");
-                    jQuery("#manm-alert").html("");
-                    location.href = "/";
-                }, 3000);
-			},
-			error: function(err){
-                jQuery("#manm-alert").removeClass().addClass("alert alert-danger");
-                jQuery("#manm-alert").html("Error 501: Ha ocurrido un error en el servidor, intente mas tarde");
-                setTimeout(() => {
-                    jQuery("#manm-alert").removeClass().addClass("d-none");
-                    jQuery("#manm-alert").html("");
-                }, 3000);
-
-                console.log(err);
-			}
-        });
+        manm_restore(id);
     });
 });
 
@@ -256,4 +272,45 @@ jQuery(document).on( 'click', '.manm-btn-more', function(){
    
 jQuery(document).on( 'click', '.manm-btn-menos', function(){
     jQuery(this).parent().parent().remove();
+});
+
+function search_posts (value,trash) {
+    var data = {
+        'action': 'manm_search_manual',
+        'search': value,
+        'is_trash': trash
+    }
+    jQuery.ajax({
+        type: 'GET',
+        url: manm_ajax.ajaxurl,
+        data,
+        beforeSend : function () {
+            jQuery('#manm-btn-search').val('<div class="spinner-border text-secondary" role="status"><span class="sr-only">Loading...</span></div>');
+        },
+        success: function(data){
+            jQuery('#manm-btn-search').html('Buscar');
+            if (data == 402) {
+                jQuery("#manm-list").html("<h4>No se han encontrado resultados</h4>");
+            } else {
+                jQuery("#manm-list").html(data);
+            }
+        },
+        error: function(err){
+            jQuery('#manm-btn-search').html('Buscar');
+            jQuery("#manm-list").html("Error 501: Ha ocurrido un error en el servidor, intente mas tarde");
+            console.log(err);
+        }
+    });
+}
+
+jQuery(document).ready(function(){
+    jQuery(document).on( 'click', '#manm-btn-search', function(){
+        const value = jQuery('#manm-search').val();
+        search_posts(value,0);
+    });
+
+    jQuery(document).on( 'click', '#manm-btn-search-trash', function(){
+        const value = jQuery('#manm-search').val();
+        search_posts(value,1);
+    });
 });

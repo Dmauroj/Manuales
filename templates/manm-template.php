@@ -104,10 +104,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 					],
 					image_title: true,
 					toolbar: false,
-					quickbars_image_toolbar: 'alignleft aligncenter alignright | rotateleft rotateright | imageoptions',
+					quickbars_image_toolbar: 'alignleft aligncenter alignright',
 					quickbars_insert_toolbar: 'quicktable image codesample',
 					quickbars_selection_toolbar: 'bold italic underline | formatselect | blockquote quicklink | fontsizeselect | forecolor backcolor | alignleft aligncenter alignright alignfull | numlist bullist outdent indent',
 					contextmenu: 'undo redo | fontsizeselect | forecolor backcolor | image inserttable | cell row column deletetable | help',
+					fontsize_formats: '8pt 10pt 12pt 14pt 16pt 18pt 20pt 22pt 24pt 26pt 32pt 34pt 36pt 48pt',
 					powerpaste_word_import: 'clean',
 					powerpaste_html_import: 'clean',
 				};

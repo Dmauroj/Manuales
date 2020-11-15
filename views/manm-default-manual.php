@@ -1,9 +1,9 @@
 <div id="manm-manual" class="dfree-change-admin mce-content-change" style="position: relative;" spellcheck="false">
 
-<header>
+    <header>
         <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
             <div class="navbar-header">
-                <img src="<?php echo MANM_URL . "assets/"; ?>img/logo.png" style="width: 50px; height: 35px;">
+                <img src="<?php echo MANM_URL . "assets/"; ?>img/logo.png">
                 <h2 href="indexmanuales.html" class="navbar-brand color8">Bienvenido - Manuales Constructora Bolívar</h2>
             </div>
         </nav>              
@@ -34,8 +34,9 @@
                     </p>
                 </div>
                 <p>Cordialmente.</p>
-                <h6><strong>CARLOS ARANGO IRIBE</strong></h6>
+                <h6><strong>CARLOS ARANGO URIBE</strong></h6>
                 <p><em>Presidente</em></p>
+                <img class="redondo" src="<?php echo MANM_URL . "assets/"; ?>img/presidente.jpg" style=" padding-bottom: 20px; padding-top: 20px" width="8%">
             </div>  
         </div>
     </div>
@@ -48,6 +49,7 @@
                 <p class="text-justify">Como objeto material, los espacios adecuados sufren deterioros por acción del uso, del medio ambiente y el tiempo, por lo tanto, deben ser cuidados en forma constante para mantenerlos en condiciones óptimas de presentación y funcionamiento.</p>
                 <p class="text-justify">En este manual contiene la descripción de espacios, equipos, con la información técnica y recomendaciones para el buen uso de las zonas comunes, que indica cómo conservarlo adecuadamente, explicar globalmente como está construida, las recomendaciones de seguridad y los procedimientos a seguir para el manejo de las distintas zonas comunes, así como también se le proporcionarán instructivos de mantenimiento (programador de mantenimientos) y una descripción de cómo aplican las garantías a bienes comunes y equipos. Cumpla estrictamente el procedimiento indicado para solicitar cualquier reparación a las zonas comunes; nunca lo solicite directamente a los trabajadores de la obra, que no estén facultados para atender la reclamación. Para la entrega de los bienes comunes se ha adelantado una revisión minuciosa del cumplimiento de norma, calidad de la obra y su adecuado funcionamiento.</p>
                 <p class="text-justify">Sin embargo, para garantizar la calidad de las zonas comunes, la empresa cuenta con un servicio de postventa que atenderá sus requerimientos siguiendo el procedimiento. </p>
+                <img src="">
             </div>
         </div>
     </div>
@@ -324,30 +326,30 @@
 
         <div class="row">
             <div class="col-sm-12 col-md-12">
-                <div>
-                    <div class=" manm-switch manm-editor manm-dublicate-section">
-                        <h5 class="color2">ETAPA 1</h5>
-                        <p class="text-justify">Incluye la torre dos (2) con dieciséis (16) pisos  de altura y cubierta transitable, noventa y  tres (93) apartamentos de dos (2), tres (3),  y   cuatro  (4)   habitaciones   o   estudio, dos (2)  sótanos  y  doscientos  noventa  y   cuatro (294) parqueaderos privados, ochenta (80)  parqueaderos de visitantes, de este total siete. (7) son para personas con movilidad reducida  y ciento veintiocho (128) depósitos privados,  distribuidos en los dos (2) sótanos y piso uno (1),. Esta etapa también incluye: el equipamiento  comunal con tres (3) pisos de altura y las zonas  exteriores de la plataforma central, cuarto de  basura de la torre, cuarto técnico, tanques  de agua potable, de incendios y equipos de  bombeo de agua correspondientes, ubicados en los dos (2) sótanos.</p>
-                    </div>
-                </div>
-                <div>
-                    <div class=" manm-switch manm-editor manm-dublicate-section">
-                        <h5 class="color2">ETAPA 2</h5>
-                        <p class="text-justify">Incluye la torre uno (1) con dieciséis (16) pisos  de altura y cubierta transitable con zona bbq,  cuartos  técnicos  y  baños,  ciento  veintiocho (128) apartamentos de una (1), dos (2), tres (3), y  cuatro (4) habitaciones o estudio, dos (2) sótanos  y sesenta y dos (62) parqueaderos privados,  diez (10) parqueaderos de visitantes, de este  total seis (6) son para personas con movilidad  reducida y noventa y tres (93) depósitos privados,  distribuidos en los dos (2) sótanos al igual que  la subestación eléctrica, planta de suplencia  parcial, cuarto técnico y cuarto de basuras de la torre.</p>
-                    </div>
-                </div>
-                <div>
-                    <div class=" manm-switch manm-editor manm-dublicate-section">
-                        <h5 class="color2">ETAPA 3</h5>
-                        <p class="text-justify">Incluye la torre tres (3) con quince (15) pisos  de altura y cubierta transitable, ciento quince (115) apartamentos de una (1), dos (2), tres (3)  habitaciones, dos (2) sótanos y ochenta y siete (87) parqueaderos privados, de este total uno (1) es para personas con movilidad reducida  y ciento quince (115) depósitos privados,  distribuidos en los dos (2) sótanos al igual  que cuartos técnicos y cuarto de basuras de la torre.</p>
-                    </div>
-                </div>
-                <div>
-                    <div class=" manm-switch manm-editor manm-dublicate-section">
-                        <h5 class="color2">ETAPA 4</h5>
-                        <p class="text-justify">Incluye la torre cuatro (4) con quince (15) pisos  de altura y cubierta en concreto no transitable, ciento un (101) apartamentos de una (1), dos  (2), tres (3), y cuatro (4) habitaciones o estudio,  dos (2) sótanos y noventa (90) parqueaderos  privados,dieciséis (16) parqueaderos de  visitantes, de este total ocho (8) son para  personas con movilidad reducida y ciento  un (101) depósitos	privados, distribuidos  en los dos (2) sótanos y piso 1 al igual que  la subestación eléctrica, planta de suplencia  parcial, cuarto técnico y cuarto de basuras.</p>
-                    </div>
-                </div>
+				<div>
+					<div class=" manm-switch manm-editor manm-dublicate-section">
+						<h5 class="color2">ETAPA 1</h5>
+						<p class="text-justify">Incluye la torre dos (2) con dieciséis (16) pisos  de altura y cubierta transitable, noventa y  tres (93) apartamentos de dos (2), tres (3),  y   cuatro  (4)   habitaciones   o   estudio, dos (2)  sótanos  y  doscientos  noventa  y   cuatro (294) parqueaderos privados, ochenta (80)  parqueaderos de visitantes, de este total siete. (7) son para personas con movilidad reducida  y ciento veintiocho (128) depósitos privados,  distribuidos en los dos (2) sótanos y piso uno (1),. Esta etapa también incluye: el equipamiento  comunal con tres (3) pisos de altura y las zonas  exteriores de la plataforma central, cuarto de  basura de la torre, cuarto técnico, tanques  de agua potable, de incendios y equipos de  bombeo de agua correspondientes, ubicados en los dos (2) sótanos.</p>
+					</div>
+				</div>
+				<div>
+					<div class=" manm-switch manm-editor manm-dublicate-section">
+						<h5 class="color2">ETAPA 2</h5>
+						<p class="text-justify">Incluye la torre uno (1) con dieciséis (16) pisos  de altura y cubierta transitable con zona bbq,  cuartos  técnicos  y  baños,  ciento  veintiocho (128) apartamentos de una (1), dos (2), tres (3), y  cuatro (4) habitaciones o estudio, dos (2) sótanos  y sesenta y dos (62) parqueaderos privados,  diez (10) parqueaderos de visitantes, de este  total seis (6) son para personas con movilidad  reducida y noventa y tres (93) depósitos privados,  distribuidos en los dos (2) sótanos al igual que  la subestación eléctrica, planta de suplencia  parcial, cuarto técnico y cuarto de basuras de la torre.</p>
+					</div>
+				</div>
+				<div>
+					<div class=" manm-switch manm-editor manm-dublicate-section">
+						<h5 class="color2">ETAPA 3</h5>
+						<p class="text-justify">Incluye la torre tres (3) con quince (15) pisos  de altura y cubierta transitable, ciento quince (115) apartamentos de una (1), dos (2), tres (3)  habitaciones, dos (2) sótanos y ochenta y siete (87) parqueaderos privados, de este total uno (1) es para personas con movilidad reducida  y ciento quince (115) depósitos privados,  distribuidos en los dos (2) sótanos al igual  que cuartos técnicos y cuarto de basuras de la torre.</p>
+					</div>
+				</div>
+				<div>
+					<div class=" manm-switch manm-editor manm-dublicate-section">
+						<h5 class="color2">ETAPA 4</h5>
+						<p class="text-justify">Incluye la torre cuatro (4) con quince (15) pisos  de altura y cubierta en concreto no transitable, ciento un (101) apartamentos de una (1), dos  (2), tres (3), y cuatro (4) habitaciones o estudio,  dos (2) sótanos y noventa (90) parqueaderos  privados,dieciséis (16) parqueaderos de  visitantes, de este total ocho (8) son para  personas con movilidad reducida y ciento  un (101) depósitos	privados, distribuidos  en los dos (2) sótanos y piso 1 al igual que  la subestación eléctrica, planta de suplencia  parcial, cuarto técnico y cuarto de basuras.</p>
+					</div>
+				</div>
             </div>  
         </div>
 
@@ -472,7 +474,7 @@
 
             <div class="row">
                 <div class="col" style="text-align: right;">
-                    <div class=" manm-switch manm-editor">
+                    <div class="manm-editor">
                         <lu>
                             <p class="color3"><strong>CONSTRUCCIÓN Y GERENCIA</strong></p>
                             <p class="color3"><strong>PROMOCIÓN Y VENTAS</strong></p>
@@ -488,7 +490,7 @@
                 </div>
 
                 <div class="col">
-                    <div class=" manm-switch manm-editor">
+                    <div class="manm-editor">
                         <lu>
                             <p>Diego Ospina - Gerente de Construcción. </p>
                             <p>Diana Andrea Gonzalez - Directora Ventas </p>
@@ -523,7 +525,6 @@
                 <div class="col-sm-12 col-md-6">
                     <div class=" manm-switch">
                         <p class="text-justify">Como objeto material, los espacios adecuados  sufren deterioros por acción del uso, del medio  ambiente y el tiempo, por lo tanto, deben ser  cuidados en forma constante para mantenerlos  en condiciones óptimas de presentación y funcionamiento.</p>
-                        <p class="text-justify">Este manual contiene la descripción de espacios,  equipos, con la información técnica y recomendaciones para el buen uso de las zonas comunes,  que indica cómo conservarlo adecuadamente,  explicarle globalmente como está construido, las  recomendaciones de seguridad y los procedimientos a seguir para el manejo de las distintas zonas  comunes, así como también se le proporcionarán  instructivos de mantenimiento (programador  de mantenimientos) y una descripción de cómo  aplican las garantías a bienes comunes y equipos.</p>
                         <p class="text-justify">Cumpla estrictamente el procedimiento indicado  para solicitar cualquier reparación a las zonas  comunes; nunca lo solicite directamente a los  trabajadores de la obra, ellos no están facultados  para atender la reclamación.</p>
                         <p class="text-justify">Para la entrega de los bienes comunes se  ha adelantado una revisión minuciosa del  cumplimiento de norma, calidad de la obra y su  adecuado funcionamiento.</p>
                         <p class="text-justify">Sin embargo, para garantizar la calidad de las  zonas comunes, la empresa cuenta con un servicio  de postventa que atenderá sus requerimientos  siguiendo el procedimiento indicado en el capítulo  5 de este manual.</p>
@@ -687,7 +688,7 @@
                         <p class="text-justify"><em>1. Usarlos de acuerdo con su naturaleza y destinación, en la forma pre-  vista en el reglamento de propiedad  horizontal, absteniéndose de ejecutar  acto alguno que comprometa la seguridad o solidez del edificio o conjunto,  producir ruidos, molestias y actos que  perturben la tranquilidad de los demás  propietarios u ocupantes o afecten la  salud pública.(…)</em></p>
                         <p class="text-justify"><em>2. Ejecutar de inmediato las reparaciones en sus bienes privados, incluidas  las redes de servicios ubicadas dentro  del bien privado, cuya omisión pueda  ocasionar perjuicios al edificio o conjunto o a los bienes que lo integran, resarciendo los daños que ocasione por  su descuido o el de las personas por  las que deba responder.(…)</em></p>
                         <p class="text-justify"><em>4. Las demás previstas en esta ley y en  el reglamento de propiedad horizon-  tal.”</em></p>
-                        <h5 class="color5">5.8 NORMAS DE VENCIDAD</h5>
+                        <h5 class="color5 manm-editor">5.8 NORMAS DE VECINDAD</h5>
                         <p class="text-justify>">Aquí encontrará los parámetros necesarios para  que usted y su familia, vivan en armonía con sus vecinos en su conjunto, por lo cual es importante  que tenga en cuenta estas recomendaciones.</p>
                         <p class="text-justify>">Ejecutar oportunamente las reparaciones de cada unidad privada,  por cuya omisión se puede causar  perjuicio a la copropiedad o las  propiedades vecinas.</p>
                         <p class="text-justify>">Asistir cumplidamente a la  asamblea de copropietarios, y a  toda reunión que se convoque  con carácter general, para efectos  de desarrollar o emprender actividades que redunden en beneficio  de la copropiedad.</p>
@@ -796,6 +797,10 @@
                                     <li class="text-justify">Las demás funciones previstas en la ley y  en el reglamento del conjunto, así como  las que defina la asamblea general de  propietarios.</li>
                                 </ul>
                         </div>
+                        <div>
+
+                        </div>
+
                     </div>
 
                     <!--COL 2 CAP6-->

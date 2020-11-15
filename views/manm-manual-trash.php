@@ -21,8 +21,19 @@ function manm_trash_list_function () {
         }
 
         $posts = get_posts($args);
-        ?> <div class="container"> 
+        ?> <div class="container">
                 <div id="manm-alert" class="d-none" role="alert"></div>
+                <div class="row mb-5">
+                    <div class="col-md-3"></div>
+                    <div class="col-md-4 d-flex justify-content-center">
+                        <input id="manm-search" placeholder="Buscar manual" type="text">
+                        <a href="#" id="manm-btn-search-trash" class="btn btn-success ml-1">Buscar</a>
+                    </div>
+                    <div class="col-md-5 d-flex justify-content-end">
+                        <!--<a href="/" class="btn btn-secondary mr-5">Regresar</a>-->
+                    </div>
+                </div>
+                <div id="manm-list">
         <?php
 
         foreach ($posts as $manual) {
@@ -40,7 +51,10 @@ function manm_trash_list_function () {
                 </div>
             <?php
         }
-        ?> </div> <?php
+        ?>
+                </div> 
+            </div>
+        <?php
     }
 }
 

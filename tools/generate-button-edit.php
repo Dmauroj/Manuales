@@ -2,6 +2,7 @@
 
 function manm_modal_title_post () {
     global $post;
+    $user = wp_get_current_user();
 
     echo <<<EOT
         <div class="modal fade" id="manm-modal-delete" tabindex="-1" aria-labelledby="manm-modal-deleteLabel" aria-hidden="true">
@@ -24,6 +25,13 @@ function manm_modal_title_post () {
         </div>
         </div>
     EOT;
+
+    if($user->data->ID != 0) {
+        $url = wp_logout_url();
+        echo <<<EOT
+            <a href="$url" class="btn btn-secondary text-white pt-2 pb-2 ml-2 mt-2 fixed-top" style="width:10rem;">Cerrar sesión</a>
+        EOT;
+    }
 
 }
 
@@ -80,11 +88,9 @@ function manm_custom_title_post ($title) {
                             <div class="col-md-6">
                                 <h1>$title</h1>
                             </div>
-                            <div class="col-md-6 d-flex justify-content-end">
+                            <div class="col-md-6 justify-content-end">
                                 <div class="row">
-                                    <div class="col-md-4 d-flex justify-content-center">
-                                        <button class="btn btn-primary" id="manm-duplicate">Crear uno igual</button>
-                                    </div>
+                                    
                         EOT;
                     if ($post->post_author == $user->data->ID) {
                         $out_html .= <<<EOT
@@ -101,11 +107,13 @@ function manm_custom_title_post ($title) {
                                 </div>
                                 <br>
                                 <div class="row">
-                                    <div class="col-md-6 d-flex"></div>
-                                    <div class="col-md-3 d-flex justify-content-center">
+                                    <div class="col-md-4 d-flex justify-content-center">
+                                        <button class="btn btn-primary" id="manm-duplicate">Crear uno igual</button>
+                                    </div>
+                                    <div class="col-md-3 justify-content-center">
                                         <a class="btn btn-secondary" href="/">Regresar</a>
                                     </div>
-                                    <div class="col-md-3 d-flex justify-content-center">
+                                    <div class="col-md-3 justify-content-center">
                                         <button class="btn btn-success" id="manm-view">Pantalla completa</button>
                                     </div>
                                 </div>
